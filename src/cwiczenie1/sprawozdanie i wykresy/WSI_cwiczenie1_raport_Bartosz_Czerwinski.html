@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WSI ćwiczenie 1</title>
+    <script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
+        h1, h2, h3 { color: #333; }
+        .container { max-width: 900px; margin: auto; }
+        img { max-width: 100%; height: auto; }
+        .equation { text-align: center; font-size: 1.2em; margin: 20px 0; }
+        ul { margin-left: 20px; }
+        figure { text-align: center; }
+        figcaption { font-style: italic; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Sprawozdanie WSI - ćwiczenie 1</h1>
+    <h1>Bartosz Czerwiński</h1>
+    <h2>1. Wstęp</h2>
+    <p style="text-align: justify">W ramach tego zadania przeanalizowano znajdowanie minimów funkcji za pomocą metody gradientu prostego.
+        Zbadana została jego skuteczność dla funkcji jednowymiarowej \( f(x) \) oraz funkcji dwuwymiarowej \( g(x_1, x_2) \), sprawdzając
+        wpływ różnych wielkości kroku (learning rate) na zbieżność algorytmu.</p>
+
+    <h2>2. Decyzje projektowe</h2>
+    <ul>
+        <li>Wykorzystano bibliotekę Autograd do automatycznego różniczkowania funkcji.</li>
+        <li>Testowane są różne wartości kroku oraz losowe punkty startowe.</li>
+    </ul>
+
+
+    <h2>3. Hiperparametry i ich wpływ</h2>
+    <h3>Główne hiperparametry</h3>
+    <ul>
+        <li><b>Wielkość kroku (learning_rate)</b> – określa wielkość kroku w kierunku minimum.</li>
+        <li><b>Liczba iteracji (max_iters)</b> – limit iteracji w procesie optymalizacji.</li>
+        <li><b>Tolerancja (tol)</b> – próg zatrzymania, jeśli gradient jest wystarczająco mały.</li>
+        <li><b>Punkt początkowy (x0)</b> – miejsce rozpoczęcia optymalizacji.</li>
+    </ul>
+    <p style="text-align: justify">Ich odpowiedni dobór ma kluczowy wpływ na efektywność i stabilność algorytmu. W dalszej części ćwiczenia testowano wpływ wielkości kroku na działanie algorytu.</p>
+
+    <h2>4. Wykresy funkcji i działanie algorytmu</h2>
+    <p style="text-align: justify">W zadaniu analizowane były dwie funkcje:</p>
+    <ul>
+        <li>Funkcja jednowymiarowa: \( f(x) = 10x^4 + 3x^3 - 30x^2 + 10x \)</li>
+        <li>Funkcja dwuwymiarowa: \( g(x_1, x_2) = (x_1 - 2)^4 + (x_2 + 3)^4 + 2 (x_1 - 2)^2 (x_2 + 3)^2 \)</li>
+    </ul>
+    <h3>Wykresy funkcji</h3>
+    <figure>
+        <img src="Wykres_funkcji_f(x)_(1).png" alt="Wykres funkcji f(x)_1">
+        <img src="Wykres_funkcji_f(x)_(2).png" alt="Wykres funkcji f(x)_2">
+        <figcaption>Wykres funkcji \( f(x) \).</figcaption>
+    </figure>
+
+    Funkcja \( f(x) \) posiada dwa minima lokalne co jest lepiej widoczne na drugim wykresie z ograniczonymi wartościami na osi Y.
+
+    <figure>
+        <img src="Wykres_funkcji_g(x1,x2).png" alt="Wykres funkcji g(x, y)">
+        <figcaption>Wykres funkcji \( g(x_1, x_2) \).</figcaption>
+    </figure>
+    Funkcja \( g(x_1, x_2) \) posiada jedno minimum globalne.
+
+    <h3>Animacje działania algorytmu</h3>
+    <figure>
+        <img src="Funkcja_f(x)_poprawne_minimum.gif" alt="Funkcja \( f(x) \) poprawne gif">
+        <figcaption>Metoda gradientu prostego dla funkcji \( f(x) \) - minimum globalne.</figcaption>
+        <img src="Funkcja_f(x)_bledne_minimum.gif" alt="Funkcja \( f(x) \) bledne gif">
+        <figcaption>Metoda gradientu prostego dla funkcji \( f(x) \) - minimum lokalne.</figcaption>
+    </figure>
+    Jak można zauważyć na powyższych animacjach algorytm gradientu prostego działa poprawnie i znajduje minima funkcji, jednak nie zawsze jest to minimum globalne.
+    W zależności od punktu startowego oraz wielkości kroku algorytm może zbiegać do minimum lokalnego.
+
+    <figure>
+        <img src="Funkcja_g(x1,x2)_poprawnie_3D.gif" alt="Funkcja \( g(x_1,x_2) \) - 3d gif">
+        <img src="Funkcja_g(x1,x2)_poprawnie_poziomica.gif" alt="Funkcja \( g(x_1,x_2) \) - poziomice gif">
+        <figcaption>Metoda gradientu prostego dla funkcji \( g(x_1, x_2) \) - minimum globalne.</figcaption>
+    </figure>
+
+    <h2>5. Wpływ wielkości kroku na działanie algorytmu</h2>
+    <p style="text-align: justify"> W tej części ćwiczenia zbadano wpływ wielkości kroku na działanie algorytmu dla losowych punktów początkowych.
+        Dla kolejnych wielkości kroku: \( \{0,0001; 0,0003; 0,0005; 0,001; 0,003; 0,005; 0,01; 0,03; 0,05; 0,1; 0,2\} \)
+        wygenerowano 50 losowych wektorów ze zbioru \( [-5,5] \) dla funkcji \( f(x) \) oraz ze zbioru \( [-5,5]^2 \) dla funkcji \( g(x_1, x_2) \).
+        Następnie dla kolejnych wartości kroku przeprowadzono symulacje w celu znalezienia średniej liczby iteracji potrzebnych do zbliżenia się do minimum oraz
+        skuteczności algorytmu (dla źle dobranych parametrów punkty mogą nie zbiegać do minimum)</p>
+    <p style="text-align: justify">Na poniższych wykresach przedstawiono wyniki testów:</p>
+    <figure>
+        <img src="Srednia_liczba_iteracji_w_zaleznosci_od_wielkosci_kroku_f(x).png" alt="Srednia liczba iteracji w zaleznosci od wielkosci kroku f(x)">
+        <figcaption>Wpływ wielkości kroku na funkcję \( f(x) \).</figcaption>
+    </figure>
+    <figure>
+        <img src="Skutecznosc_znajdowania_minimum_w_zaleznosci_od_wielkosci_kroku_f(x).png" , alt="Skutecznosc znajdowania minimum w zaleznosci od wielkosci kroku f(x)">
+        <figcaption>Wpływ wielkości kroku na skuteczność znajdowania minimum funkcji \( f(x) \).</figcaption>
+    </figure>
+    <p style="text-align: justify">Dla funkcji \( f(x) \) dla niskiej wielkości kroku <b>0,0001</b> potrzeba około 1000 iteracji, aby znaleźć się blisko minimum.
+        Wraz ze wzrostem kroku liczba potrzebnych iteracji maleje aż do około 20 dla kroku <b>0,01</b>. Dla większych wartości kroku algorytm gradientu prostego nie zbiega do minimum funkcji,
+        iteracje powodują coraz większe skoki w przestrzeni, co prowadzi do rozbieżności. </p>
+    <p style="text-align: justify">Rozbieżności pojawiają się już przy kroku <b>0,003</b>, natomiast już od wartości <b>0,05</b> algorytm ma zerową skuteczność</p>
+    <p style="text-align: justify">Z przeprowadzonych testów wynika, że algorytm dla funkcji jednowymiarowej najlepiej działa dla kroku około <b>0,003</b> gdzie wystarczy około 30 iteracji,
+        aby znaleźć minimum, a skuteczność algorytmu wynosi wtedy prawie 90%</p>
+    <figure>
+        <img src="Srednia_liczba_iteracji_w_zaleznosci_od_wielkosci_kroku_g(x1,x2).png" alt="Srednia liczba iteracji w zaleznosci od wielkosci kroku g(x1,x2)">
+        <figcaption>Wpływ wielkości kroku na funkcję \( g(x_1, x_2) \).</figcaption>
+    </figure>
+    <figure>
+        <img src="Skutecznosc_znajdowania_minimum_w_zaleznosci_od_wielkosci_kroku_g(x1,x2).png" alt="Skutecznosc znajdowania minimum w zaleznosci od wielkosci kroku g(x1,x2)">
+        <figcaption>Wpływ wielkości kroku na skuteczność znajdowania minimum funkcji \( g(x_1, x_2) \).</figcaption>
+    </figure>
+    <p style="text-align: justify">Dla funkcji \( g(x_1, x_2) \) dla niskiej wielkości kroku potrzeba bardzo wielu iteracji, aby znaleźć się blisko minimum. W celu skrócenia czasu obliczeń ograniczono liczbę iteracji do 5000.
+        Wartością kroku, która pozwala na znalezienie minimum w rozsądnym czasie, jest około <b>0,005</b>. Wtedy też zaczyna maleć skuteczność algorytmu i pojawiają się przypadki, w których punkt nie zmierza do minimum,
+        dlatego właśnie ta wielkość kroku wydaje się najlepsza.</p>
+
+    <h2>6. Podsumowanie</h2>
+    <p style="text-align: justify">W ramach ćwiczenia zbadano działanie algorytmu gradientu prostego dla funkcji jedno- i dwuwymiarowych. Wpływ wielkości kroku na działanie algorytmu jest kluczowy.
+        Dla funkcji jednowymiarowej najlepsze wyniki uzyskano dla kroku około <b>0,003</b>, dla funkcji dwuwymiarowej dla kroku około <b>0,005</b>. Warto zauważyć, że dla zbyt dużych wartości kroku algorytm może nie zbiegać do minimum,
+        a dla zbyt małych wartości potrzeba bardzo wielu iteracji, aby znaleźć się blisko minimum. </p>
+    <p style="text-align: justify">Algorytm z jednej strony działa lepiej dla funkcji \( f(x) \), ponieważ pozwala na znacznie szybsze znajdowanie minimum lokalnego. Jednak istnieje duża szansa, że znalezione minimum nie będzie
+        globalne. Tego problemu nie w przypadku funkcji \( g(x_1, x_2) \), która posiada tylko jedno minimum. </p>
+
+</div>
+</body>
+</html>
