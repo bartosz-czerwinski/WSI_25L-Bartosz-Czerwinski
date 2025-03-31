@@ -1,3 +1,4 @@
+import re
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 import matplotlib
@@ -22,73 +23,65 @@ def visualize(grid, points, score, size=20):
     plt.title(f"Wynik: {score}")
     plt.show()
 
-def plot_population_results(filepath):
-    with open(filepath, 'r') as f:
-        lines = f.readlines()
 
-    current_pop = None
-    current_scores = []
+def plot_data_from_file(filename, plot_type):
 
-    for line in lines:
-        line = line.strip()
-        if line.startswith("Population size"):
-            if current_pop is not None and current_scores:
-                save_plot1(current_pop, current_scores)
-            current_pop = int(line.split(":")[1].strip())
-            current_scores = []
-        elif line:
-            current_scores = list(map(int, line.split(",")))
+    # Odczytaj dane z pliku
+    with open(filename, 'r') as file:
+        data = file.read()
 
-    # Zapisz ostatni wykres
-    if current_pop is not None and current_scores:
-        save_plot1(current_pop, current_scores)
+    # Wyodrębnij dane z tekstu
+    population_sizes = []
+    best_scores_population = []
+    mutation_probabilities = []
+    best_scores_mutation = []
+    crossover_probabilities = []
+    best_scores_crossover = []
 
+    # Użyj wyrażenia regularnego do znalezienia wielkości populacji, prawdopodobieństwa mutacji i najlepszych wyników
+    matches_population = re.findall(r"Population size: (\d+)\nBest score: (\d+)", data)
+    for size, score in matches_population:
+        population_sizes.append(int(size))
+        best_scores_population.append(int(score))
 
-def save_plot1(population_size, scores):
-    plt.figure(figsize=(10, 5))
-    plt.plot(scores, label=f"Wielkość populacji {population_size}")
-    plt.xlabel("Czas działania algorytmu [s]")
-    plt.ylabel("Najlepszy wynik")
-    plt.title(f"Przebieg działania algorytmu, wielkość populacji: {population_size}")
+    matches_mutation = re.findall(r"Mutation prob: (\d+\.\d+)\nBest score: (\d+)", data)
+    for prob, score in matches_mutation:
+        mutation_probabilities.append(float(prob))
+        best_scores_mutation.append(int(score))
+
+    matches_crossover = re.findall(r"Crossover prob: (\d+\.\d+)\nBest score: (\d+)", data)
+    for prob, score in matches_crossover:
+        crossover_probabilities.append(float(prob))
+        best_scores_crossover.append(int(score))
+
+    # Wygeneruj wykres w zależności od typu
+    if plot_type == 'population':
+        plt.figure(figsize=(10, 5))
+        plt.plot(population_sizes, best_scores_population, marker='o')
+        plt.xlabel("Wielkość Populacji")
+        plt.ylabel("Najlepszy Wynik")
+        plt.title("Zależność Najlepszego Wyniku od Wielkości Populacji")
+        plt.grid(True)
+        plt.savefig('population_plot.png')
+    elif plot_type == 'mutation':
+        plt.figure(figsize=(10, 5))
+        plt.plot(mutation_probabilities, best_scores_mutation, marker='o')
+        plt.xlabel("Prawdopodobieństwo Mutacji")
+        plt.ylabel("Najlepszy Wynik")
+        plt.title("Zależność Najlepszego Wyniku od Prawdopodobieństwa Mutacji")
+        plt.grid(True)
+        plt.savefig('mutation_plot.png')
+    elif plot_type == 'crossover':
+        plt.figure(figsize=(10, 5))
+        plt.plot(crossover_probabilities, best_scores_crossover, marker='o')
+        plt.xlabel("Prawdopodobieństwo Krzyżowania")
+        plt.ylabel("Najlepszy Wynik")
+        plt.title("Zależność Najlepszego Wyniku od Prawdopodobieństwa Krzyżowania")
+        plt.grid(True)
+        plt.savefig('crossover_plot.png')
+    else:
+        print("Nieznany typ wykresu.")
+        return
+
     plt.grid(True)
-    plt.legend()
-    filename = f"popsize_{population_size}.png"
-    plt.savefig(filename)
-    plt.close()
-
-
-def plot_summary_final_scores(filepath):
-    with open(filepath, 'r') as f:
-        lines = f.readlines()
-
-    pop_sizes = []
-    final_scores = []
-    current_pop = None
-    current_scores = []
-
-    for line in lines:
-        line = line.strip()
-        if line.startswith("Population size"):
-            if current_pop is not None and current_scores:
-                pop_sizes.append(current_pop)
-                final_scores.append(current_scores[-1])
-            current_pop = int(line.split(":")[1].strip())
-            current_scores = []
-        elif line:
-            current_scores = list(map(int, line.split(",")))
-
-    if current_pop is not None and current_scores:
-        pop_sizes.append(current_pop)
-        final_scores.append(current_scores[-1])
-
-    plt.figure(figsize=(10, 6))
-    plt.plot(pop_sizes, final_scores, marker='o')
-    plt.xlabel("Wielkość populacji")
-    plt.ylabel("Końcowy najlepszy wynik")
-    plt.title("Wynik algorytmu w zależności od wielkości populacji")
-    plt.grid(True)
-    plt.savefig("summary_population_vs_score.png")
-    plt.close()
-    print("Zapisano wykres zbiorczy: summary_population_vs_score.png")
-
-
+    plt.show()
