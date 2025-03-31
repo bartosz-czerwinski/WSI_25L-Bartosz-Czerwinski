@@ -85,3 +85,4 @@ def plot_data_from_file(filename, plot_type):
 
     plt.grid(True)
     plt.show()
+

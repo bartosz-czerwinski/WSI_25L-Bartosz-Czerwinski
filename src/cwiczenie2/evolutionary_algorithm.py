@@ -243,3 +243,4 @@ for population_size in population_sizes:
 score, grid, points = evaluate(best_solution, 20)
 plots.visualize(grid, points, score, 20)
 
+
