@@ -1,0 +1,919 @@
+,Sex,ChestPainType,FastingBS,RestingECG,ExerciseAngina,ST_Slope,HeartDisease,AgeGroup,RestingBP_Category,Cholesterol_Category,MaxHR_Category,Oldpeak_Category
+0,M,ATA,0,Normal,N,Up,0,Young,Elevated,High,High,Normal
+1,F,NAP,0,Normal,N,Flat,1,Middle-aged,High,Desirable,High,Normal
+2,M,ATA,0,ST,N,Up,0,Young,Elevated,High,Low,Normal
+3,F,ASY,0,Normal,Y,Flat,1,Middle-aged,Elevated,Borderline High,Moderate,Slight ST
+4,M,NAP,0,Normal,N,Up,0,Middle-aged,High,Desirable,Moderate,Normal
+5,M,NAP,0,Normal,N,Up,0,Young,Normal,Very High,High,Normal
+6,F,ATA,0,Normal,N,Up,0,Middle-aged,Elevated,Borderline High,High,Normal
+7,M,ATA,0,Normal,N,Up,0,Middle-aged,Normal,Borderline High,High,Normal
+8,M,ASY,0,Normal,Y,Flat,1,Young,Elevated,Borderline High,Moderate,Slight ST
+9,F,ATA,0,Normal,N,Up,0,Middle-aged,Normal,High,Moderate,Normal
+10,F,NAP,0,Normal,N,Up,0,Young,Elevated,Borderline High,High,Normal
+11,M,ATA,0,ST,Y,Flat,1,Middle-aged,Elevated,Desirable,Low,Slight ST
+12,M,ATA,0,Normal,N,Up,0,Young,Normal,Borderline High,High,Normal
+13,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Elevated,Borderline High,Moderate,Normal
+14,F,NAP,0,ST,N,Up,0,Middle-aged,Normal,Borderline High,Moderate,Normal
+15,F,ATA,0,Normal,N,Flat,0,Middle-aged,Normal,High,High,Slight ST
+16,M,ASY,0,Normal,N,Flat,1,Young,Normal,Desirable,High,Normal
+17,F,ATA,0,Normal,N,Up,0,Middle-aged,Normal,Borderline High,High,Normal
+18,M,ASY,0,Normal,N,Flat,1,Middle-aged,Normal,High,Moderate,Normal
+19,M,ATA,0,Normal,N,Flat,1,Young,Normal,High,High,Severe ST
+20,F,TA,0,Normal,N,Up,0,Middle-aged,Normal,Borderline High,High,Normal
+21,M,ATA,0,Normal,N,Flat,0,Middle-aged,Normal,Desirable,High,Normal
+22,F,ATA,0,Normal,N,Up,0,Middle-aged,Elevated,Borderline High,High,Normal
+23,M,ATA,0,Normal,Y,Flat,1,Middle-aged,High,High,High,Severe ST
+24,M,NAP,0,Normal,N,Up,0,Young,Elevated,Borderline High,Moderate,Normal
+25,M,NAP,0,Normal,N,Up,0,Young,Elevated,Borderline High,High,Normal
+26,M,ASY,0,ST,Y,Flat,0,Middle-aged,Elevated,High,Moderate,Severe ST
+27,M,ATA,0,Normal,N,Up,0,Middle-aged,Normal,High,Moderate,Normal
+28,F,ATA,0,Normal,N,Up,0,Middle-aged,Normal,Very High,Moderate,Normal
+29,M,ATA,0,Normal,N,Up,0,Middle-aged,Elevated,Desirable,High,Normal
+30,M,NAP,0,Normal,N,Flat,1,Middle-aged,High,Very High,Moderate,Normal
+31,M,NAP,0,Normal,N,Up,0,Middle-aged,Elevated,Desirable,Moderate,Normal
+32,M,ASY,0,Normal,N,Flat,1,Middle-aged,Elevated,Borderline High,Moderate,Slight ST
+33,M,ASY,0,ST,N,Flat,1,Middle-aged,Elevated,Desirable,Moderate,Slight ST
+34,F,ATA,0,Normal,N,Up,0,Middle-aged,High,Desirable,High,Normal
+35,M,ATA,0,Normal,N,Up,0,Young,Elevated,High,High,Normal
+36,M,ASY,1,Normal,Y,Flat,1,Senior,Elevated,Very High,Low,Slight ST
+37,F,ATA,0,ST,N,Up,0,Middle-aged,Normal,High,High,Normal
+38,F,ATA,1,ST,N,Up,0,Middle-aged,Normal,Desirable,High,Normal
+39,F,ASY,0,Normal,Y,Flat,0,Middle-aged,High,Borderline High,Moderate,Normal
+40,F,ATA,0,Normal,N,Up,0,Middle-aged,High,Borderline High,Moderate,Normal
+41,F,NAP,0,ST,Y,Flat,1,Middle-aged,Elevated,High,Low,Normal
+42,M,ATA,0,Normal,N,Up,0,Young,High,High,High,Normal
+43,M,NAP,0,ST,N,Up,0,Middle-aged,Elevated,High,High,Normal
+44,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Normal,Desirable,Moderate,Normal
+45,M,NAP,0,Normal,Y,Flat,0,Middle-aged,Elevated,Very High,Moderate,Normal
+46,M,ASY,0,Normal,N,Up,0,Young,Normal,Borderline High,High,Normal
+47,M,ATA,0,Normal,N,Up,0,Middle-aged,Elevated,Borderline High,High,Normal
+48,M,NAP,0,Normal,N,Flat,0,Young,Normal,Very High,Very High,Normal
+49,M,ASY,0,Normal,N,Flat,1,Middle-aged,Normal,High,High,Normal
+50,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Elevated,Borderline High,Moderate,Slight ST
+51,F,ASY,0,Normal,Y,Flat,1,Middle-aged,Normal,Borderline High,Low,Slight ST
+52,M,ATA,1,Normal,N,Up,0,Middle-aged,Elevated,Borderline High,Moderate,Normal
+53,F,ATA,0,Normal,N,Up,0,Middle-aged,Elevated,High,High,Normal
+54,F,ASY,0,Normal,Y,Flat,0,Middle-aged,Elevated,Desirable,Moderate,Slight ST
+55,F,ATA,0,Normal,N,Up,0,Middle-aged,High,Desirable,High,Normal
+56,M,ASY,0,Normal,Y,Flat,1,Young,Normal,High,High,Slight ST
+57,M,NAP,0,ST,N,Flat,1,Middle-aged,Elevated,Borderline High,Moderate,Normal
+58,M,ASY,0,ST,N,Up,0,Middle-aged,High,Very High,Moderate,Normal
+59,M,ASY,0,ST,Y,Flat,1,Middle-aged,Normal,Very High,Low,Normal
+60,M,ATA,0,Normal,N,Up,0,Middle-aged,Normal,High,High,Normal
+61,F,NAP,0,Normal,N,Up,0,Middle-aged,High,High,High,Normal
+62,M,ASY,0,Normal,N,Up,0,Middle-aged,Elevated,Borderline High,High,Normal
+63,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Normal,High,Moderate,Normal
+64,F,ATA,0,Normal,N,Up,0,Middle-aged,Normal,Borderline High,High,Normal
+65,F,ATA,0,Normal,N,Up,0,Young,Normal,High,Moderate,Normal
+66,F,ASY,0,Normal,N,Up,0,Middle-aged,Elevated,High,High,Normal
+67,M,ATA,0,Normal,N,Up,0,Young,Normal,Borderline High,Very High,Normal
+68,M,ASY,0,ST,Y,Flat,1,Middle-aged,High,High,Low,Severe ST
+69,M,ASY,0,Normal,N,Up,0,Middle-aged,High,Very High,High,Normal
+70,M,ATA,0,ST,Y,Flat,1,Middle-aged,Elevated,High,High,Normal
+71,M,ATA,0,Normal,N,Up,0,Middle-aged,Elevated,Borderline High,Moderate,Normal
+72,M,ASY,0,Normal,N,Flat,1,Middle-aged,Normal,Desirable,High,Normal
+73,F,ASY,0,ST,N,Up,0,Middle-aged,Normal,Borderline High,Moderate,Normal
+74,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Elevated,High,Moderate,Slight ST
+75,M,NAP,0,Normal,N,Up,0,Middle-aged,High,Desirable,Moderate,Normal
+76,M,ASY,0,Normal,N,Flat,1,Young,Normal,Very High,Moderate,Normal
+77,F,ASY,0,Normal,N,Up,0,Young,Elevated,Desirable,High,Normal
+78,M,ATA,0,Normal,Y,Up,0,Middle-aged,Elevated,Desirable,Moderate,Normal
+79,M,ASY,0,Normal,N,Flat,1,Middle-aged,Elevated,Borderline High,High,Normal
+80,M,NAP,0,Normal,N,Up,0,Middle-aged,Normal,High,High,Normal
+81,M,ATA,0,Normal,N,Up,0,Middle-aged,Normal,Borderline High,High,Normal
+82,M,ASY,0,Normal,N,Flat,1,Senior,High,Borderline High,Moderate,Normal
+83,M,ATA,0,Normal,N,Up,0,Middle-aged,High,Desirable,High,Normal
+84,M,ASY,1,Normal,Y,Flat,1,Middle-aged,High,Borderline High,Moderate,Normal
+85,M,ASY,0,Normal,Y,Flat,1,Senior,Elevated,Desirable,Low,Normal
+86,M,ASY,1,Normal,Y,Flat,1,Senior,High,High,Moderate,Slight ST
+87,F,ATA,0,Normal,Y,Flat,0,Middle-aged,Elevated,Borderline High,High,Slight ST
+88,M,TA,0,ST,N,Flat,1,Middle-aged,Normal,High,High,Normal
+89,M,ASY,0,Normal,Y,Flat,0,Middle-aged,Elevated,Borderline High,Moderate,Normal
+90,F,ATA,0,Normal,N,Up,0,Middle-aged,Normal,Borderline High,High,Normal
+91,M,ASY,0,Normal,N,Up,0,Young,Elevated,Very High,Moderate,Normal
+92,F,ATA,0,Normal,N,Up,0,Middle-aged,Normal,Borderline High,High,Normal
+93,M,ASY,0,Normal,Y,Flat,1,Middle-aged,High,Very High,Low,Slight ST
+94,F,NAP,0,ST,N,Up,0,Young,Normal,Desirable,High,Normal
+95,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Elevated,High,Moderate,Slight ST
+96,M,ATA,0,Normal,N,Up,0,Middle-aged,High,Borderline High,Moderate,Normal
+97,M,NAP,1,Normal,N,Up,0,Young,High,Desirable,High,Normal
+98,M,ASY,0,Normal,N,Up,0,Middle-aged,Normal,Desirable,Moderate,Normal
+99,M,ATA,0,Normal,N,Up,0,Middle-aged,Elevated,High,High,Normal
+100,M,ASY,0,ST,Y,Flat,1,Senior,Elevated,High,Moderate,Normal
+101,M,ASY,0,Normal,N,Up,0,Middle-aged,Elevated,Desirable,Low,Normal
+102,F,ASY,0,Normal,N,Flat,1,Young,High,Very High,Moderate,Slight ST
+103,M,ASY,1,Normal,Y,Flat,1,Young,Normal,Very High,High,Normal
+104,M,ASY,0,Normal,N,Flat,1,Middle-aged,Normal,Desirable,Moderate,Normal
+105,M,ATA,1,Normal,N,Up,0,Middle-aged,Elevated,High,Moderate,Normal
+106,F,ASY,0,ST,N,Up,0,Middle-aged,Normal,High,Moderate,Normal
+107,M,ATA,0,ST,N,Up,0,Young,High,Borderline High,High,Normal
+108,M,ASY,0,Normal,N,Up,0,Middle-aged,Elevated,Desirable,Moderate,Normal
+109,M,ATA,0,Normal,N,Up,0,Young,High,High,Moderate,Normal
+110,F,ATA,0,Normal,N,Flat,0,Middle-aged,Elevated,Desirable,Moderate,Normal
+111,M,ASY,0,Normal,Y,Flat,1,Middle-aged,High,High,Low,Severe ST
+112,M,ASY,1,Normal,Y,Up,0,Middle-aged,Elevated,High,Moderate,Normal
+113,M,ATA,0,Normal,N,Up,0,Young,Elevated,High,High,Normal
+114,F,NAP,0,ST,N,Up,0,Middle-aged,Elevated,Borderline High,Moderate,Normal
+115,F,ASY,0,Normal,Y,Flat,1,Young,Normal,High,High,Normal
+116,M,ASY,0,Normal,N,Flat,1,Young,Normal,High,High,Normal
+117,F,ASY,1,ST,Y,Flat,1,Middle-aged,Elevated,Very High,Moderate,Slight ST
+118,F,TA,0,ST,N,Up,0,Young,Normal,Desirable,Very High,Normal
+119,M,TA,0,Normal,N,Flat,1,Young,Elevated,Desirable,High,Normal
+120,F,NAP,1,Normal,N,Flat,1,Middle-aged,Elevated,High,High,Normal
+121,F,NAP,0,Normal,N,Up,0,Middle-aged,Elevated,High,Moderate,Normal
+122,M,ASY,0,ST,N,Up,0,Middle-aged,Normal,Borderline High,Moderate,Normal
+123,F,ATA,0,Normal,Y,Flat,1,Middle-aged,High,Very High,Moderate,Normal
+124,M,ATA,0,Normal,N,Up,0,Middle-aged,Elevated,Borderline High,High,Normal
+125,M,ATA,0,Normal,N,Up,0,Middle-aged,Normal,High,Moderate,Normal
+126,F,ATA,0,Normal,N,Up,0,Young,Elevated,Desirable,Very High,Normal
+127,F,ASY,0,Normal,N,Up,0,Middle-aged,Normal,Desirable,High,Slight ST
+128,F,ATA,1,Normal,N,Up,0,Middle-aged,Normal,Borderline High,Moderate,Normal
+129,M,NAP,0,Normal,Y,Flat,0,Middle-aged,Normal,Borderline High,High,Slight ST
+130,M,NAP,0,Normal,N,Up,0,Young,High,High,Moderate,Normal
+131,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Normal,Borderline High,High,Normal
+132,M,ASY,0,ST,Y,Flat,1,Middle-aged,High,Very High,Moderate,Slight ST
+133,M,ASY,0,ST,Y,Flat,1,Middle-aged,High,Borderline High,Moderate,Slight ST
+134,F,ASY,0,ST,Y,Flat,0,Senior,Elevated,High,Moderate,Normal
+135,M,NAP,0,Normal,N,Flat,1,Middle-aged,Normal,High,High,Normal
+136,F,ATA,0,ST,N,Up,0,Middle-aged,Normal,Borderline High,High,Normal
+137,M,ATA,0,ST,N,Up,0,Young,Normal,High,High,Slight ST
+138,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Elevated,Desirable,Moderate,Normal
+139,M,ASY,0,Normal,Y,Flat,1,Middle-aged,High,High,Moderate,Slight ST
+140,M,ASY,0,Normal,Y,Flat,1,Middle-aged,High,Very High,Low,Severe ST
+141,M,ASY,0,ST,Y,Flat,1,Middle-aged,Elevated,Very High,Moderate,Severe ST
+142,M,ASY,0,ST,Y,Flat,1,Middle-aged,High,High,High,Severe ST
+143,M,ASY,0,Normal,N,Up,0,Middle-aged,Elevated,High,High,Normal
+144,F,ATA,0,Normal,N,Flat,1,Middle-aged,Normal,High,High,Normal
+145,M,ASY,0,Normal,N,Up,0,Young,Normal,High,Moderate,Normal
+146,M,ATA,0,Normal,N,Up,0,Middle-aged,Normal,Desirable,High,Normal
+147,F,ATA,0,ST,N,Up,0,Middle-aged,Normal,High,High,Normal
+148,M,ATA,0,Normal,N,Up,0,Middle-aged,Normal,Desirable,High,Normal
+149,M,ASY,1,Normal,Y,Flat,1,Middle-aged,Elevated,Very High,Moderate,Normal
+150,M,ATA,0,Normal,N,Up,0,Young,Elevated,Borderline High,Moderate,Normal
+151,M,ATA,0,Normal,N,Up,0,Middle-aged,Normal,Desirable,Low,Normal
+152,M,ATA,0,Normal,N,Up,0,Young,Elevated,High,High,Normal
+153,M,ASY,0,Normal,N,Up,0,Middle-aged,Normal,High,Moderate,Normal
+154,M,ATA,0,ST,N,Up,0,Middle-aged,Normal,High,High,Normal
+155,M,ASY,1,Normal,Y,Flat,1,Middle-aged,High,Very High,High,Severe ST
+156,M,ASY,0,Normal,Y,Flat,1,Young,Normal,Desirable,High,Normal
+157,M,ASY,0,Normal,N,Up,0,Middle-aged,Elevated,Desirable,Moderate,Normal
+158,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Elevated,High,Low,Slight ST
+159,M,ATA,0,ST,N,Up,0,Middle-aged,High,Desirable,Moderate,Normal
+160,M,ASY,1,LVH,Y,Flat,1,Middle-aged,Elevated,High,Moderate,Normal
+161,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Elevated,Borderline High,Low,Normal
+162,M,ATA,0,Normal,N,Up,0,Middle-aged,High,High,High,Normal
+163,M,ATA,0,Normal,N,Up,0,Middle-aged,Normal,Desirable,High,Normal
+164,F,ATA,0,Normal,N,Up,0,Middle-aged,Elevated,Borderline High,Moderate,Normal
+165,M,TA,1,Normal,N,Flat,1,Middle-aged,Elevated,High,High,Slight ST
+166,M,ASY,0,ST,Y,Flat,1,Middle-aged,Elevated,Borderline High,Moderate,Severe ST
+167,M,ATA,0,Normal,N,Up,0,Middle-aged,Elevated,Borderline High,Moderate,Normal
+168,M,ASY,0,Normal,N,Up,0,Middle-aged,Elevated,Borderline High,Low,Normal
+169,M,NAP,0,Normal,N,Up,0,Middle-aged,Elevated,Desirable,High,Normal
+170,M,ATA,0,Normal,N,Up,0,Young,Normal,High,High,Normal
+171,M,NAP,0,Normal,N,Up,0,Young,Elevated,Borderline High,Very High,Normal
+172,M,ATA,0,Normal,N,Up,0,Middle-aged,Elevated,Very High,High,Normal
+173,M,NAP,0,Normal,N,Up,0,Middle-aged,Elevated,Desirable,High,Normal
+174,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Elevated,High,Moderate,Slight ST
+175,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Elevated,High,Moderate,Slight ST
+176,M,ASY,0,Normal,N,Flat,1,Middle-aged,Elevated,Borderline High,Moderate,Slight ST
+177,M,ATA,0,Normal,N,Up,0,Middle-aged,Elevated,High,High,Normal
+178,M,NAP,0,Normal,N,Up,0,Young,Elevated,Desirable,High,Normal
+179,F,ASY,0,Normal,N,Up,0,Middle-aged,Elevated,Borderline High,Low,Normal
+180,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Elevated,Borderline High,Moderate,Slight ST
+181,M,ATA,0,Normal,N,Up,0,Middle-aged,Elevated,Borderline High,High,Normal
+182,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Elevated,Very High,Moderate,Slight ST
+183,M,ASY,0,ST,Y,Flat,0,Middle-aged,Normal,Borderline High,Moderate,Normal
+184,F,ATA,0,Normal,N,Up,0,Middle-aged,High,Very High,Moderate,Normal
+185,M,NAP,1,ST,N,Flat,1,Middle-aged,High,Borderline High,Low,Normal
+186,M,ATA,0,Normal,N,Up,0,Middle-aged,Elevated,High,Moderate,Normal
+187,M,ASY,1,Normal,Y,Flat,1,Middle-aged,Normal,Borderline High,Moderate,Normal
+188,F,ASY,0,Normal,Y,Flat,0,Middle-aged,Normal,Very High,Moderate,Normal
+189,M,ASY,0,ST,Y,Flat,1,Middle-aged,High,High,Moderate,Slight ST
+190,M,ASY,0,ST,N,Up,0,Middle-aged,High,High,Moderate,Normal
+191,M,ATA,0,ST,N,Up,0,Middle-aged,High,Borderline High,Moderate,Normal
+192,M,ATA,0,Normal,N,Up,0,Middle-aged,Elevated,High,High,Normal
+193,M,NAP,0,Normal,N,Up,0,Middle-aged,Elevated,Desirable,Moderate,Normal
+194,F,ATA,0,Normal,N,Up,0,Middle-aged,Elevated,Desirable,High,Normal
+195,F,TA,0,Normal,N,Up,0,Senior,High,Desirable,Moderate,Normal
+196,M,ASY,0,Normal,N,Flat,0,Middle-aged,Normal,High,Moderate,Normal
+197,M,ATA,0,Normal,N,Up,0,Middle-aged,High,High,Moderate,Normal
+198,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Normal,High,Moderate,Normal
+199,F,TA,0,Normal,N,Flat,0,Middle-aged,Elevated,Very High,Low,Normal
+200,M,TA,0,Normal,N,Up,0,Middle-aged,Normal,High,High,Normal
+201,M,NAP,0,Normal,N,Up,0,Middle-aged,Normal,Borderline High,High,Normal
+202,M,NAP,0,Normal,N,Up,0,Middle-aged,High,Desirable,High,Normal
+203,F,ATA,0,ST,N,Up,0,Young,Normal,Borderline High,High,Normal
+204,M,ATA,0,Normal,N,Up,0,Middle-aged,Elevated,Desirable,Low,Normal
+205,M,ASY,0,Normal,Y,Up,0,Middle-aged,High,Borderline High,Moderate,Normal
+206,M,ATA,0,LVH,N,Up,0,Young,Normal,Very High,High,Normal
+207,M,ATA,0,Normal,N,Flat,1,Young,Normal,High,Moderate,Normal
+208,M,ATA,0,LVH,N,Up,0,Young,Elevated,Desirable,Very High,Normal
+209,M,ASY,0,Normal,N,Flat,1,Middle-aged,Elevated,Borderline High,Moderate,Normal
+210,M,ASY,1,Normal,N,Flat,1,Middle-aged,Normal,High,Moderate,Normal
+211,F,NAP,0,Normal,Y,Flat,1,Middle-aged,Elevated,High,Moderate,Normal
+212,M,NAP,0,Normal,Y,Up,0,Middle-aged,Elevated,High,Moderate,Normal
+213,F,NAP,0,ST,N,Up,0,Middle-aged,Elevated,Borderline High,High,Normal
+214,M,ASY,0,Normal,Y,Flat,1,Middle-aged,High,Borderline High,Low,Slight ST
+215,F,TA,0,ST,N,Up,0,Young,High,Borderline High,High,Normal
+216,M,ASY,0,Normal,N,Flat,1,Young,Normal,High,High,Normal
+217,M,NAP,0,Normal,N,Up,0,Middle-aged,Normal,Borderline High,Moderate,Normal
+218,M,ATA,0,Normal,N,Up,0,Middle-aged,Elevated,Desirable,High,Normal
+219,M,ATA,0,Normal,N,Up,0,Young,Elevated,High,High,Normal
+220,M,ASY,0,Normal,N,Flat,1,Middle-aged,Elevated,Borderline High,Moderate,Normal
+221,F,ASY,0,Normal,Y,Flat,1,Middle-aged,High,Very High,High,Normal
+222,F,NAP,0,Normal,N,Up,0,Middle-aged,Normal,Desirable,Moderate,Normal
+223,M,NAP,0,Normal,N,Up,0,Young,Normal,High,Very High,Normal
+224,M,ATA,1,Normal,N,Up,0,Middle-aged,Normal,High,Moderate,Normal
+225,M,ASY,0,Normal,N,Flat,1,Middle-aged,High,High,High,Normal
+226,M,NAP,0,Normal,N,Up,0,Middle-aged,Normal,Desirable,Moderate,Normal
+227,M,ASY,0,Normal,Y,Flat,1,Young,Normal,Desirable,Moderate,Severe ST
+228,M,ATA,0,Normal,N,Up,0,Middle-aged,Normal,High,High,Normal
+229,F,ASY,0,ST,N,Up,0,Young,Elevated,Desirable,Very High,Normal
+230,M,ASY,0,Normal,N,Up,0,Young,Elevated,Very High,High,Normal
+231,M,NAP,0,Normal,N,Up,0,Young,Elevated,High,High,Normal
+232,F,ATA,0,Normal,N,Up,0,Young,Normal,High,Moderate,Normal
+233,M,ASY,0,Normal,N,Up,0,Middle-aged,Normal,High,High,Normal
+234,F,ATA,0,ST,N,Up,0,Middle-aged,Elevated,Very High,Moderate,Normal
+235,M,ATA,0,Normal,Y,Flat,0,Young,Normal,Desirable,High,Normal
+236,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Normal,Very High,Moderate,Severe ST
+237,M,TA,0,Normal,N,Flat,1,Middle-aged,Elevated,High,Moderate,Normal
+238,M,ASY,0,Normal,Y,Flat,1,Middle-aged,High,Very High,Low,Slight ST
+239,M,ASY,0,Normal,Y,Flat,1,Middle-aged,High,Desirable,Moderate,Severe ST
+240,M,ATA,0,Normal,N,Up,0,Middle-aged,High,Very High,High,Normal
+241,M,ASY,0,Normal,Y,Flat,1,Middle-aged,High,Desirable,High,Slight ST
+242,M,ATA,1,Normal,Y,Flat,1,Middle-aged,High,High,High,Slight ST
+243,F,ATA,0,Normal,N,Up,0,Middle-aged,Normal,High,Moderate,Normal
+244,M,ASY,0,Normal,Y,Flat,1,Middle-aged,High,High,Moderate,Normal
+245,M,TA,0,Normal,N,Up,0,Middle-aged,Normal,Desirable,Moderate,Slight ST
+246,M,NAP,0,Normal,Y,Flat,1,Middle-aged,Normal,Borderline High,High,Slight ST
+247,M,ASY,1,ST,Y,Down,1,Middle-aged,Elevated,High,High,Slight ST
+248,M,ASY,0,ST,Y,Flat,1,Middle-aged,Elevated,Borderline High,Moderate,Normal
+249,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Elevated,Very High,Moderate,Normal
+250,M,ASY,0,Normal,N,Flat,1,Middle-aged,Elevated,Very High,Moderate,Normal
+251,M,ASY,0,Normal,N,Flat,1,Middle-aged,Normal,High,Moderate,Slight ST
+252,M,ASY,0,ST,Y,Up,0,Senior,Elevated,High,Moderate,Normal
+253,M,ATA,0,Normal,N,Up,0,Senior,Elevated,High,High,Normal
+254,M,ASY,0,Normal,Y,Flat,1,Middle-aged,High,High,Low,Slight ST
+255,F,NAP,0,Normal,N,Up,0,Middle-aged,Normal,High,Moderate,Normal
+256,F,ATA,0,LVH,N,Up,0,Middle-aged,Elevated,Very High,High,Normal
+257,M,NAP,0,Normal,N,Up,0,Young,High,Desirable,High,Normal
+258,F,NAP,0,Normal,N,Up,0,Middle-aged,High,Desirable,Moderate,Normal
+259,F,ATA,0,Normal,N,Up,0,Middle-aged,Elevated,Very High,High,Normal
+260,M,ATA,0,Normal,Y,Up,0,Middle-aged,Elevated,High,High,Normal
+261,F,ATA,0,Normal,N,Up,0,Middle-aged,Normal,Borderline High,Moderate,Normal
+262,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Normal,Borderline High,Moderate,Normal
+263,M,ASY,0,Normal,N,Flat,1,Middle-aged,Elevated,Desirable,Moderate,Normal
+264,M,NAP,0,Normal,Y,Flat,1,Middle-aged,Elevated,Desirable,High,Normal
+265,M,ATA,0,Normal,N,Up,0,Middle-aged,High,Very High,High,Normal
+266,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Elevated,High,Moderate,Normal
+267,M,ATA,0,Normal,N,Up,0,Young,Normal,Borderline High,High,Normal
+268,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Elevated,High,Low,Normal
+269,F,NAP,0,Normal,N,Flat,0,Middle-aged,Elevated,Borderline High,High,Slight ST
+270,M,ASY,0,Normal,N,Up,0,Middle-aged,Normal,Borderline High,Moderate,Normal
+271,F,ATA,0,Normal,N,Up,0,Young,Normal,Desirable,High,Normal
+272,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Elevated,Borderline High,Moderate,Severe ST
+273,M,NAP,0,LVH,N,Up,0,Middle-aged,Normal,Borderline High,Moderate,Normal
+274,F,ATA,0,Normal,N,Up,0,Middle-aged,High,High,High,Normal
+275,M,NAP,0,Normal,N,Up,0,Middle-aged,High,Borderline High,Low,Normal
+276,M,NAP,0,Normal,N,Flat,1,Middle-aged,Elevated,Desirable,High,Slight ST
+277,M,ASY,0,Normal,Y,Flat,1,Middle-aged,High,Borderline High,Moderate,Slight ST
+278,F,ASY,0,ST,Y,Flat,0,Middle-aged,High,Very High,Moderate,Normal
+279,F,ATA,0,ST,N,Up,0,Middle-aged,Elevated,High,High,Normal
+280,M,NAP,0,LVH,N,Up,0,Middle-aged,Normal,High,Moderate,Normal
+281,M,ASY,0,Normal,N,Flat,1,Middle-aged,High,Borderline High,Moderate,Slight ST
+282,F,NAP,0,Normal,Y,Up,0,Middle-aged,Elevated,Borderline High,High,Slight ST
+283,F,ATA,0,ST,N,Up,0,Middle-aged,Normal,Very High,High,Normal
+284,M,ASY,0,Normal,N,Up,0,Middle-aged,Elevated,Very High,High,Normal
+285,F,NAP,0,Normal,N,Up,0,Middle-aged,Normal,Desirable,Moderate,Normal
+286,M,ASY,0,Normal,N,Up,0,Middle-aged,Elevated,Desirable,Moderate,Normal
+287,M,ATA,0,Normal,N,Up,0,Middle-aged,Normal,Desirable,Moderate,Normal
+288,F,ATA,0,ST,N,Up,0,Middle-aged,Elevated,Very High,High,Slight ST
+289,M,ATA,0,Normal,N,Up,0,Young,Normal,Desirable,High,Normal
+290,M,NAP,0,Normal,N,Up,0,Middle-aged,Normal,Borderline High,Moderate,Normal
+291,F,ATA,0,Normal,N,Up,0,Middle-aged,Elevated,High,Moderate,Normal
+292,M,ASY,0,Normal,N,Up,0,Middle-aged,Elevated,Desirable,High,Normal
+293,M,ASY,0,Normal,Y,Flat,1,Senior,Normal,,Low,Normal
+294,M,TA,1,Normal,N,Up,1,Young,Normal,,Moderate,Normal
+295,M,ASY,1,Normal,Y,Up,1,Senior,Normal,,Moderate,Slight ST
+296,M,ASY,1,Normal,Y,Flat,1,Middle-aged,High,,Moderate,Normal
+297,M,ASY,1,ST,Y,Up,1,Middle-aged,Normal,,Moderate,Slight ST
+298,M,ASY,1,Normal,N,Flat,1,Middle-aged,Normal,,Low,Normal
+299,M,ASY,1,ST,N,Up,1,Middle-aged,Normal,,High,Severe ST
+300,M,ASY,1,Normal,N,Flat,1,Middle-aged,High,,High,Normal
+301,M,ATA,0,ST,N,Up,0,Middle-aged,Elevated,,High,Normal
+302,M,ASY,1,Normal,N,Up,1,Middle-aged,Elevated,,Moderate,Slight ST
+303,F,ASY,1,ST,Y,Down,1,Senior,Normal,,Moderate,Slight ST
+304,M,ASY,1,Normal,N,Flat,1,Middle-aged,Normal,,Moderate,Severe ST
+305,F,ASY,1,Normal,Y,Up,1,Middle-aged,Normal,,Moderate,Slight ST
+306,M,ASY,1,Normal,N,Flat,1,Middle-aged,Normal,,High,Normal
+307,M,ATA,0,ST,N,Down,0,Middle-aged,Elevated,,Moderate,Normal
+308,M,ASY,1,Normal,N,Up,1,Middle-aged,Normal,,Moderate,Normal
+309,M,ASY,1,Normal,N,Down,1,Middle-aged,Normal,,Very High,Normal
+310,M,ASY,0,Normal,N,Up,0,Senior,High,,High,Normal
+311,M,ASY,1,Normal,N,Up,1,Middle-aged,Elevated,,Moderate,Normal
+312,M,ASY,1,Normal,N,Up,1,Middle-aged,Elevated,,High,Slight ST
+313,M,ASY,1,Normal,N,Up,1,Young,Normal,,High,Normal
+314,M,ASY,0,Normal,Y,Down,0,Middle-aged,Low,,High,Slight ST
+315,M,ATA,1,ST,N,Up,1,Senior,High,,Moderate,Slight ST
+316,M,NAP,1,Normal,N,Flat,1,Middle-aged,Normal,,High,Normal
+317,M,ASY,1,Normal,Y,Up,1,Middle-aged,Elevated,,Moderate,Slight ST
+318,M,ASY,1,Normal,N,Flat,1,Senior,Elevated,,Low,Severe ST
+319,M,ASY,1,Normal,N,Up,1,Senior,High,,Moderate,Slight ST
+320,M,NAP,1,Normal,N,Flat,1,Middle-aged,Elevated,,High,Severe ST
+321,M,ASY,1,Normal,N,Flat,1,Senior,Normal,,Moderate,
+322,F,ASY,1,Normal,N,Up,1,Young,Normal,,High,Severe ST
+323,M,ASY,1,Normal,Y,Down,1,Senior,Normal,,Moderate,Severe ST
+324,M,ASY,1,ST,N,Flat,1,Middle-aged,Normal,,Moderate,
+325,M,ASY,1,Normal,Y,Down,1,Middle-aged,Normal,,Moderate,
+326,M,NAP,0,Normal,N,Up,0,Middle-aged,Normal,,Moderate,
+327,M,ASY,1,Normal,Y,Up,1,Middle-aged,Elevated,,Moderate,Normal
+328,M,ASY,1,Normal,Y,Flat,1,Middle-aged,Normal,,Low,Normal
+329,M,ASY,1,ST,Y,Down,1,Middle-aged,Elevated,,Moderate,Slight ST
+330,M,NAP,1,Normal,N,Up,1,Middle-aged,Normal,,High,Severe ST
+331,M,ASY,1,ST,N,Up,1,Middle-aged,Normal,,Low,
+332,M,NAP,0,Normal,N,Up,0,Young,Normal,,High,
+333,M,ASY,1,ST,N,Up,1,Young,Normal,,High,Normal
+334,M,ASY,1,Normal,N,Up,1,Middle-aged,Elevated,,High,
+335,M,TA,1,LVH,N,Flat,1,Senior,Normal,,Moderate,
+336,M,NAP,0,LVH,N,Flat,0,Senior,High,,Moderate,Slight ST
+337,M,ASY,1,ST,N,Up,1,Senior,High,,High,Severe ST
+338,M,ASY,1,LVH,N,Up,1,Senior,Elevated,,High,Slight ST
+339,F,ASY,1,Normal,N,Down,1,Senior,Normal,,High,Slight ST
+340,M,ASY,1,Normal,N,Down,1,Middle-aged,Normal,,Moderate,Slight ST
+341,M,ASY,1,Normal,Y,Down,1,Senior,Normal,,Moderate,Slight ST
+342,M,ASY,1,Normal,N,Flat,1,Senior,Normal,,Moderate,Slight ST
+343,M,ASY,1,Normal,N,Flat,1,Middle-aged,Elevated,,Moderate,Normal
+344,M,ASY,1,Normal,N,Flat,1,Middle-aged,Normal,,Moderate,Normal
+345,M,ASY,0,Normal,N,Flat,1,Senior,Elevated,,Moderate,Normal
+346,M,ASY,0,Normal,N,Flat,1,Middle-aged,Normal,,Moderate,Normal
+347,M,ASY,1,Normal,N,Flat,1,Middle-aged,Normal,,Moderate,Normal
+348,M,ASY,0,ST,Y,Flat,1,Senior,Elevated,,Moderate,Slight ST
+349,M,ASY,1,Normal,Y,Flat,1,Young,Normal,,Moderate,Normal
+350,M,ASY,1,Normal,N,Flat,1,Middle-aged,Normal,,Moderate,Normal
+351,M,ASY,0,ST,Y,Up,1,Middle-aged,Elevated,,Moderate,Normal
+352,M,ASY,0,ST,Y,Down,1,Middle-aged,Normal,,Low,
+353,M,ASY,0,ST,Y,Flat,1,Middle-aged,Elevated,,Low,Normal
+354,M,ASY,0,ST,N,Up,1,Middle-aged,Normal,,Low,Normal
+355,M,TA,0,LVH,N,Flat,1,Senior,High,,Moderate,Normal
+356,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Normal,,Moderate,Slight ST
+357,M,ATA,0,Normal,N,Flat,1,Middle-aged,Normal,,Low,Normal
+358,M,NAP,0,Normal,Y,Flat,1,Young,Normal,,Moderate,Normal
+359,M,NAP,0,Normal,N,Flat,1,Middle-aged,Normal,,Moderate,Normal
+360,M,NAP,0,Normal,Y,Flat,1,Senior,High,,Low,Normal
+361,M,ASY,0,Normal,Y,Flat,1,Middle-aged,High,,Moderate,Normal
+362,M,NAP,0,ST,N,Flat,1,Middle-aged,High,,Low,Normal
+363,M,ASY,0,ST,N,Flat,1,Middle-aged,Normal,,High,Normal
+364,M,NAP,0,Normal,N,Flat,0,Middle-aged,Normal,,Low,Normal
+365,F,ASY,0,Normal,Y,Flat,1,Senior,High,,Moderate,Normal
+366,M,ASY,0,Normal,Y,Flat,1,Senior,High,,Moderate,Slight ST
+367,M,ASY,0,ST,Y,Up,1,Senior,Elevated,,Moderate,Normal
+368,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Elevated,,Moderate,Slight ST
+369,M,ASY,0,Normal,Y,Flat,1,Senior,High,,Low,Slight ST
+370,M,ASY,0,Normal,Y,Up,1,Middle-aged,Elevated,,Low,Normal
+371,M,ASY,0,Normal,Y,Flat,1,Senior,High,,Moderate,Slight ST
+372,M,ASY,0,Normal,Y,Up,1,Senior,High,,Low,Normal
+373,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Elevated,,Moderate,Normal
+374,M,ASY,0,Normal,Y,Down,1,Senior,Elevated,,Moderate,Normal
+375,F,NAP,0,ST,N,Up,1,Senior,High,,Moderate,Normal
+376,M,NAP,0,Normal,Y,Flat,1,Middle-aged,High,,Moderate,Normal
+377,M,ASY,1,ST,N,Flat,1,Senior,High,,Moderate,Slight ST
+378,M,ASY,1,Normal,Y,Flat,1,Senior,Elevated,,High,Slight ST
+379,M,ASY,0,ST,Y,Up,1,Middle-aged,Normal,,High,Normal
+380,M,ASY,0,ST,Y,Flat,1,Middle-aged,High,,Low,Normal
+381,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Normal,,Moderate,Normal
+382,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Normal,,High,Slight ST
+383,F,ASY,0,Normal,N,Flat,1,Young,Normal,,High,Normal
+384,M,ASY,0,Normal,N,Flat,1,Middle-aged,Normal,,High,Normal
+385,M,ASY,0,Normal,Y,Flat,1,Senior,High,,Moderate,Normal
+386,M,ASY,0,Normal,Y,Flat,1,Middle-aged,High,,Low,Normal
+387,M,ASY,0,LVH,Y,Flat,1,Middle-aged,Elevated,,Moderate,Normal
+388,M,ASY,0,Normal,N,Flat,1,Middle-aged,Elevated,,Low,Normal
+389,M,ASY,1,ST,N,Flat,1,Senior,High,,High,Normal
+390,M,ASY,0,Normal,N,Flat,1,Middle-aged,Elevated,,Low,Normal
+391,M,ASY,0,ST,Y,Flat,1,Senior,Normal,,Low,Normal
+392,M,ASY,0,LVH,N,Flat,1,Senior,Elevated,,Moderate,Normal
+393,M,ASY,1,Normal,Y,Flat,1,Young,High,,Moderate,Normal
+394,M,ASY,1,Normal,Y,Flat,1,Middle-aged,High,,Low,Slight ST
+395,M,ASY,1,Normal,N,Flat,1,Young,Elevated,,High,Normal
+396,F,TA,1,Normal,N,Flat,1,Senior,Elevated,,High,Normal
+397,M,ASY,1,ST,Y,Flat,1,Middle-aged,High,,Moderate,Normal
+398,M,ASY,1,Normal,Y,Up,1,Middle-aged,High,,Moderate,Normal
+399,M,NAP,1,ST,N,Flat,1,Senior,High,,Low,Normal
+400,F,ASY,1,Normal,N,Flat,1,Middle-aged,High,,Moderate,Normal
+401,M,ASY,1,ST,N,Flat,1,Middle-aged,Elevated,,High,Normal
+402,M,ASY,1,ST,N,Flat,1,Senior,High,,Low,Normal
+403,M,ASY,1,Normal,Y,Flat,1,Middle-aged,Elevated,,Moderate,Slight ST
+404,M,NAP,1,Normal,Y,Flat,1,Middle-aged,Normal,,Moderate,Normal
+405,M,ASY,1,Normal,Y,Flat,1,Young,Normal,,Moderate,Slight ST
+406,M,ASY,1,Normal,Y,Flat,1,Middle-aged,Elevated,,Low,Normal
+407,M,ASY,1,Normal,Y,Flat,1,Senior,Normal,,Low,
+408,M,ASY,1,Normal,N,Flat,1,Middle-aged,Normal,,Low,Normal
+409,M,NAP,1,LVH,Y,Flat,1,Middle-aged,High,,Moderate,Normal
+410,M,ASY,1,ST,N,Flat,1,Senior,High,,Low,Slight ST
+411,M,ASY,1,Normal,N,Flat,1,Middle-aged,High,,High,Slight ST
+412,M,ASY,1,Normal,Y,Flat,1,Middle-aged,Elevated,,Moderate,Normal
+413,M,NAP,1,Normal,N,Flat,1,Middle-aged,Elevated,,Low,
+414,M,ASY,1,Normal,Y,Flat,1,Middle-aged,Elevated,,Moderate,Severe ST
+415,F,ASY,1,Normal,N,Flat,1,Senior,High,,Low,Normal
+416,M,ASY,0,ST,Y,Flat,1,Senior,Elevated,High,Moderate,Severe ST
+417,M,ASY,0,ST,N,Up,0,Middle-aged,Elevated,Borderline High,Moderate,Normal
+418,M,ASY,0,ST,Y,Down,1,Middle-aged,Elevated,Borderline High,Moderate,Slight ST
+419,M,ASY,0,ST,Y,Up,1,Middle-aged,High,Borderline High,High,Severe ST
+420,M,NAP,1,LVH,Y,Flat,0,Senior,Normal,Borderline High,Low,Slight ST
+421,M,NAP,0,ST,N,Up,0,Senior,Normal,,Moderate,
+422,M,ASY,1,ST,Y,Flat,1,Senior,High,Borderline High,Moderate,Normal
+423,M,NAP,0,ST,Y,Flat,0,Middle-aged,High,,Moderate,Slight ST
+424,M,NAP,1,Normal,Y,Up,1,Middle-aged,Normal,,High,Slight ST
+425,M,ATA,1,ST,N,Flat,1,Middle-aged,High,High,High,Normal
+426,M,ATA,0,ST,N,Up,0,Middle-aged,Elevated,Desirable,Moderate,Normal
+427,M,ASY,0,ST,Y,Flat,1,Middle-aged,Elevated,,Moderate,Normal
+428,M,ASY,0,Normal,Y,Flat,1,Senior,Normal,,Moderate,Normal
+429,M,NAP,0,LVH,Y,Flat,1,Senior,Elevated,,Moderate,Normal
+430,M,ASY,1,ST,Y,Flat,1,Middle-aged,Elevated,,High,Normal
+431,M,ASY,0,ST,N,Up,0,Senior,Normal,Borderline High,Low,Normal
+432,M,ASY,0,Normal,Y,Down,1,Senior,High,Desirable,Low,Severe ST
+433,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Normal,Borderline High,Moderate,Slight ST
+434,M,ASY,0,ST,N,Down,0,Senior,Elevated,,Moderate,Slight ST
+435,M,ASY,0,ST,Y,Up,0,Middle-aged,High,,Moderate,Normal
+436,M,ASY,0,Normal,N,Up,1,Middle-aged,Normal,,Moderate,Normal
+437,M,ASY,1,ST,N,Flat,1,Senior,Normal,,Moderate,Slight ST
+438,M,NAP,0,ST,Y,Flat,1,Senior,Elevated,,Moderate,Normal
+439,M,NAP,0,Normal,N,Up,0,Senior,Elevated,,Moderate,Normal
+440,M,NAP,0,ST,N,Up,1,Middle-aged,Elevated,,High,Severe ST
+441,M,ASY,1,ST,N,Flat,1,Senior,Elevated,,Moderate,Normal
+442,M,ASY,1,ST,Y,Flat,1,Middle-aged,Elevated,,Moderate,Slight ST
+443,M,ASY,1,ST,Y,Flat,1,Middle-aged,Elevated,Desirable,Moderate,Normal
+444,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Normal,Desirable,Moderate,Slight ST
+445,M,NAP,0,ST,Y,Flat,1,Middle-aged,Elevated,Borderline High,Moderate,Slight ST
+446,M,ASY,0,ST,Y,Flat,1,Middle-aged,Elevated,,Moderate,Slight ST
+447,M,ASY,0,ST,Y,Up,1,Senior,Elevated,Desirable,Moderate,Slight ST
+448,M,ASY,1,Normal,Y,Flat,1,Senior,High,Borderline High,Moderate,Normal
+449,M,NAP,0,Normal,N,Flat,1,Middle-aged,,,High,Slight ST
+450,M,NAP,0,Normal,Y,Down,1,Middle-aged,Elevated,,Moderate,Slight ST
+451,M,ASY,0,ST,Y,Flat,1,Senior,High,,Moderate,Normal
+452,M,ASY,0,ST,Y,Flat,1,Middle-aged,Elevated,High,Moderate,Slight ST
+453,M,ASY,0,Normal,Y,Up,0,Middle-aged,Normal,,Moderate,Slight ST
+454,M,ASY,1,Normal,Y,Flat,1,Middle-aged,Elevated,Borderline High,Moderate,Slight ST
+455,M,ASY,0,ST,Y,Up,0,Middle-aged,High,,Moderate,Slight ST
+456,M,NAP,0,Normal,Y,Flat,1,Senior,Normal,,Low,Normal
+457,M,ASY,1,Normal,N,Flat,1,Young,Elevated,,High,Normal
+458,M,ASY,1,ST,N,Flat,1,Senior,Elevated,,Low,Slight ST
+459,M,ASY,0,ST,N,Up,0,Middle-aged,Normal,,Moderate,Normal
+460,M,ASY,1,ST,Y,Flat,1,Middle-aged,Elevated,High,Moderate,Slight ST
+461,M,ASY,0,Normal,Y,Flat,1,Senior,Elevated,,Low,Normal
+462,M,ASY,0,Normal,Y,Down,1,Middle-aged,Elevated,Borderline High,Moderate,Slight ST
+463,M,ASY,0,Normal,N,Up,0,Middle-aged,Elevated,,Moderate,Normal
+464,M,NAP,0,Normal,Y,Down,1,Middle-aged,Elevated,,Moderate,Slight ST
+465,M,NAP,0,Normal,N,Up,0,Middle-aged,Elevated,Borderline High,High,Normal
+466,M,NAP,0,ST,Y,Flat,1,Middle-aged,Normal,,Moderate,Severe ST
+467,F,ATA,0,Normal,N,Up,0,Senior,Elevated,,Moderate,Normal
+468,M,ASY,0,ST,Y,Up,1,Senior,High,Desirable,Low,Slight ST
+469,M,ATA,1,Normal,N,Flat,0,Middle-aged,Elevated,Borderline High,High,Slight ST
+470,M,ASY,0,Normal,N,Flat,1,Middle-aged,Elevated,,Moderate,Normal
+471,M,ASY,0,Normal,Y,Flat,1,Senior,Elevated,,Moderate,Severe ST
+472,M,ASY,1,ST,Y,Flat,1,Middle-aged,High,,Moderate,Slight ST
+473,M,NAP,1,ST,Y,Flat,1,Middle-aged,High,Very High,Moderate,Slight ST
+474,M,ATA,0,Normal,N,Up,0,Senior,Elevated,,Moderate,Normal
+475,M,ASY,1,LVH,Y,Flat,1,Middle-aged,High,,Moderate,Normal
+476,M,ASY,1,LVH,N,Up,0,Middle-aged,Elevated,Borderline High,Moderate,Normal
+477,M,ASY,1,Normal,Y,Down,1,Senior,Normal,,Moderate,Slight ST
+478,M,ASY,1,ST,Y,Flat,1,Middle-aged,Elevated,Very High,High,Slight ST
+479,M,NAP,0,LVH,Y,Flat,1,Middle-aged,High,,Moderate,Severe ST
+480,M,ATA,1,Normal,Y,Flat,1,Middle-aged,Elevated,,Moderate,Slight ST
+481,M,NAP,1,ST,N,Down,1,Senior,Elevated,,Moderate,Severe ST
+482,M,TA,1,Normal,N,Up,1,Senior,High,High,Moderate,Severe ST
+483,M,ASY,0,LVH,Y,Down,1,Middle-aged,Normal,,Moderate,Slight ST
+484,M,ASY,0,Normal,Y,Flat,1,Senior,Elevated,,Moderate,Slight ST
+485,M,ATA,1,ST,Y,Flat,1,Senior,Elevated,Borderline High,Moderate,Slight ST
+486,M,ATA,1,ST,N,Up,0,Middle-aged,Normal,Borderline High,High,Normal
+487,M,ASY,0,ST,Y,Flat,1,Middle-aged,Elevated,Borderline High,High,Slight ST
+488,M,TA,0,Normal,N,Up,0,Senior,Elevated,High,Moderate,Normal
+489,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Elevated,Borderline High,Moderate,Severe ST
+490,M,NAP,0,Normal,Y,Flat,1,Senior,Normal,Borderline High,Moderate,Normal
+491,M,ASY,1,ST,N,Flat,1,Senior,High,Borderline High,Moderate,Normal
+492,M,TA,0,ST,N,Flat,1,Middle-aged,Elevated,,High,Severe ST
+493,M,NAP,0,Normal,Y,Flat,1,Middle-aged,Elevated,Very High,Moderate,Slight ST
+494,M,ASY,0,Normal,Y,Flat,1,Middle-aged,High,Borderline High,Moderate,Severe ST
+495,F,ASY,0,Normal,Y,Flat,1,Senior,High,High,Moderate,Normal
+496,M,ASY,1,Normal,N,Down,0,Middle-aged,Elevated,Very High,Low,Normal
+497,M,ASY,0,Normal,Y,Down,1,Senior,High,High,High,Severe ST
+498,M,ASY,1,ST,Y,Flat,1,Senior,High,Very High,Moderate,Normal
+499,M,ASY,0,Normal,Y,Flat,1,Senior,Elevated,High,Moderate,Normal
+500,M,ASY,0,Normal,Y,Down,1,Senior,Elevated,High,Moderate,Severe ST
+501,M,ASY,0,Normal,Y,Flat,1,Senior,Elevated,Very High,Moderate,Slight ST
+502,M,ASY,0,ST,Y,Flat,1,Senior,Elevated,Borderline High,Moderate,Slight ST
+503,M,ASY,1,ST,N,Up,0,Middle-aged,Elevated,Borderline High,Moderate,Normal
+504,M,ASY,1,Normal,Y,Down,1,Senior,High,Borderline High,Moderate,Severe ST
+505,M,NAP,1,ST,Y,Flat,1,Middle-aged,Elevated,High,Moderate,Slight ST
+506,M,ASY,0,Normal,Y,Flat,1,Senior,Elevated,Borderline High,Moderate,Severe ST
+507,M,NAP,0,Normal,Y,Up,0,Young,Normal,Borderline High,Low,Normal
+508,M,ASY,1,Normal,N,Down,1,Senior,Normal,,High,Slight ST
+509,M,ASY,0,Normal,N,Flat,1,Middle-aged,Normal,Desirable,Moderate,Normal
+510,M,ASY,0,Normal,N,Up,0,Middle-aged,Elevated,Desirable,Moderate,Normal
+511,M,ASY,1,ST,Y,Flat,1,Senior,High,High,Low,Slight ST
+512,M,NAP,0,ST,N,Up,0,Young,Elevated,Desirable,High,
+513,M,TA,0,ST,Y,Flat,1,Senior,Normal,High,High,Slight ST
+514,M,ASY,0,Normal,N,Up,1,Middle-aged,Elevated,,Moderate,Normal
+515,M,NAP,1,ST,N,Flat,0,Senior,Elevated,,High,Severe ST
+516,M,NAP,1,Normal,N,Flat,1,Senior,High,Desirable,Moderate,Normal
+517,M,ASY,0,Normal,Y,Flat,1,Senior,High,Borderline High,Moderate,Slight ST
+518,M,NAP,1,ST,Y,Down,1,Middle-aged,Normal,,Moderate,Normal
+519,M,ASY,0,ST,Y,Up,1,Senior,Normal,Very High,Moderate,Normal
+520,M,ASY,0,ST,N,Flat,0,Senior,Elevated,Borderline High,Moderate,Normal
+521,M,ASY,0,ST,Y,Down,1,Senior,Normal,High,Moderate,Severe ST
+522,M,ASY,0,LVH,Y,Up,1,Middle-aged,High,Very High,Moderate,Normal
+523,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Elevated,Desirable,Moderate,Normal
+524,M,ASY,0,ST,N,Up,0,Middle-aged,High,Desirable,High,Normal
+525,M,NAP,0,Normal,N,Up,0,Middle-aged,Elevated,Borderline High,High,Normal
+526,M,ASY,0,LVH,Y,Flat,1,Senior,High,Very High,Moderate,Slight ST
+527,M,ATA,0,Normal,N,Up,0,Senior,Elevated,High,Moderate,Normal
+528,M,NAP,0,Normal,Y,Flat,1,Middle-aged,Elevated,Desirable,Moderate,Slight ST
+529,M,ASY,0,Normal,Y,Flat,1,Senior,High,Borderline High,Moderate,Slight ST
+530,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Elevated,Borderline High,Moderate,Slight ST
+531,M,ASY,1,ST,Y,Flat,1,Senior,High,Very High,Moderate,Slight ST
+532,M,ASY,1,ST,N,Flat,1,Middle-aged,Normal,Desirable,Moderate,Normal
+533,M,ASY,0,ST,Y,Flat,1,Senior,Normal,High,Moderate,Slight ST
+534,M,ASY,0,Normal,Y,Down,1,Middle-aged,Elevated,Borderline High,Moderate,Severe ST
+535,M,ASY,0,LVH,Y,Flat,1,Middle-aged,Elevated,,Moderate,Normal
+536,M,NAP,1,ST,Y,Flat,1,Senior,Elevated,,Moderate,Slight ST
+537,M,ASY,1,ST,Y,Down,1,Senior,High,High,Moderate,Severe ST
+538,M,ASY,1,Normal,Y,Flat,1,Middle-aged,Elevated,Borderline High,Moderate,Slight ST
+539,M,ASY,0,LVH,N,Up,0,Middle-aged,Normal,Desirable,Low,Normal
+540,M,NAP,0,ST,Y,Flat,1,Senior,Elevated,Borderline High,Moderate,Slight ST
+541,M,NAP,0,LVH,N,Down,1,Senior,Normal,Desirable,Moderate,Severe ST
+542,F,ASY,0,Normal,Y,Flat,1,Middle-aged,Elevated,High,Moderate,Slight ST
+543,M,ASY,0,ST,Y,Down,1,Senior,High,Desirable,Moderate,Severe ST
+544,F,ATA,1,Normal,Y,Up,0,Senior,Elevated,High,Moderate,Normal
+545,M,ASY,0,ST,N,Up,0,Middle-aged,Elevated,High,Moderate,Normal
+546,M,NAP,1,ST,N,Flat,1,Middle-aged,Elevated,Borderline High,High,Normal
+547,M,TA,1,ST,N,Down,1,Senior,High,Desirable,Low,Slight ST
+548,M,ASY,0,Normal,N,Up,1,Senior,Normal,High,Moderate,Slight ST
+549,M,TA,1,ST,N,Up,0,Senior,Elevated,Desirable,Moderate,Normal
+550,M,ASY,0,Normal,N,Flat,1,Middle-aged,High,High,Low,Slight ST
+551,M,NAP,0,LVH,N,Up,0,Senior,Normal,Borderline High,Low,Normal
+552,M,NAP,0,Normal,Y,Flat,1,Senior,High,Borderline High,Moderate,Slight ST
+553,M,TA,1,Normal,Y,Flat,1,Senior,High,Borderline High,Moderate,Slight ST
+554,M,NAP,1,ST,N,Up,0,Middle-aged,High,Desirable,High,Normal
+555,M,NAP,0,ST,Y,Flat,1,Middle-aged,High,Borderline High,Moderate,Normal
+556,M,ASY,1,Normal,Y,Down,0,Senior,High,Very High,Moderate,Slight ST
+557,M,NAP,1,ST,Y,Flat,1,Middle-aged,Elevated,Borderline High,Moderate,Slight ST
+558,M,NAP,0,ST,Y,Flat,1,Middle-aged,Elevated,Borderline High,Moderate,Slight ST
+559,M,ASY,0,Normal,Y,Down,1,Senior,Elevated,High,Moderate,Severe ST
+560,M,NAP,0,ST,N,Up,0,Middle-aged,Elevated,Borderline High,Moderate,Normal
+561,M,ATA,0,ST,N,Up,0,Middle-aged,Elevated,Desirable,High,Normal
+562,M,ASY,0,Normal,Y,Flat,0,Middle-aged,Elevated,High,High,Slight ST
+563,M,ASY,1,ST,Y,Flat,1,Middle-aged,Elevated,Borderline High,Moderate,Slight ST
+564,M,ASY,1,ST,Y,Flat,1,Middle-aged,High,High,High,Slight ST
+565,M,ASY,0,ST,Y,Flat,1,Senior,High,High,Moderate,Slight ST
+566,M,ASY,0,Normal,Y,Flat,0,Middle-aged,High,Desirable,Moderate,Slight ST
+567,M,ASY,0,ST,Y,Flat,1,Senior,Elevated,Borderline High,Moderate,Normal
+568,M,ASY,0,Normal,Y,Down,1,Young,Normal,High,Moderate,Slight ST
+569,M,ASY,0,Normal,Y,Flat,1,Middle-aged,High,Borderline High,Moderate,Severe ST
+570,M,ASY,0,ST,Y,Down,1,Middle-aged,Elevated,Borderline High,Moderate,Slight ST
+571,M,ASY,1,Normal,Y,Flat,1,Senior,Elevated,Desirable,Moderate,Slight ST
+572,M,ASY,0,ST,Y,Flat,1,Senior,High,Desirable,Moderate,Normal
+573,M,ASY,1,LVH,N,Flat,1,Senior,High,Desirable,Moderate,Slight ST
+574,M,ASY,1,ST,Y,Flat,1,Senior,High,Borderline High,Moderate,Slight ST
+575,M,ASY,1,Normal,Y,Flat,1,Middle-aged,Elevated,High,Moderate,Slight ST
+576,M,ASY,0,ST,Y,Flat,1,Senior,Elevated,Desirable,Moderate,Severe ST
+577,M,ASY,0,Normal,Y,Flat,1,Senior,High,Very High,Moderate,Slight ST
+578,M,ASY,0,LVH,Y,Down,1,Middle-aged,High,Desirable,Moderate,Severe ST
+579,M,ASY,1,ST,Y,Flat,1,Senior,High,High,Moderate,Slight ST
+580,M,ASY,1,LVH,Y,Flat,1,Middle-aged,Elevated,Desirable,Moderate,Normal
+581,M,ASY,0,Normal,Y,Up,1,Middle-aged,Elevated,Borderline High,High,Slight ST
+582,M,ASY,1,LVH,Y,Flat,1,Senior,Elevated,Borderline High,Low,Normal
+583,M,NAP,0,LVH,N,Up,0,Senior,High,High,Moderate,Normal
+584,M,ASY,1,ST,Y,Flat,1,Senior,High,High,Moderate,Slight ST
+585,M,ATA,1,ST,N,Flat,1,Middle-aged,High,High,Moderate,Normal
+586,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Elevated,High,Moderate,Slight ST
+587,M,NAP,0,LVH,N,Flat,0,Young,Normal,Borderline High,High,Normal
+588,M,ASY,0,ST,Y,Flat,1,Senior,Elevated,Borderline High,Moderate,Slight ST
+589,M,NAP,1,Normal,N,Flat,1,Senior,Elevated,Borderline High,Low,Normal
+590,M,ATA,0,ST,N,Up,0,Senior,Elevated,Desirable,Moderate,Normal
+591,M,ASY,0,ST,N,Up,0,Middle-aged,Normal,Borderline High,Moderate,Normal
+592,M,ASY,1,LVH,Y,Down,1,Senior,High,High,High,Slight ST
+593,M,ASY,1,LVH,N,Flat,1,Senior,Elevated,High,Moderate,Normal
+594,M,ASY,1,LVH,Y,Up,1,Middle-aged,High,High,Moderate,Normal
+595,M,ASY,1,LVH,Y,Flat,1,Middle-aged,Elevated,Desirable,Moderate,Normal
+596,M,ASY,0,LVH,N,Flat,1,Middle-aged,Elevated,High,Low,Normal
+597,M,NAP,0,ST,N,Up,0,Middle-aged,Elevated,Desirable,Moderate,Normal
+598,M,ASY,0,LVH,Y,Down,1,Middle-aged,Normal,Borderline High,Moderate,Slight ST
+599,M,ASY,1,Normal,N,Flat,1,Middle-aged,Elevated,Borderline High,Low,Slight ST
+600,M,ASY,0,ST,Y,Flat,0,Middle-aged,Elevated,Borderline High,Low,Normal
+601,M,NAP,0,Normal,Y,Flat,1,Senior,Elevated,High,Moderate,Slight ST
+602,M,NAP,0,Normal,Y,Flat,1,Senior,Normal,Very High,Low,Normal
+603,M,ASY,0,Normal,Y,Down,1,Senior,High,Very High,Moderate,Slight ST
+604,M,NAP,1,Normal,Y,Up,0,Senior,Elevated,High,High,Normal
+605,F,ASY,1,LVH,N,Up,0,Middle-aged,Normal,High,Low,Normal
+606,M,ASY,1,ST,Y,Flat,1,Senior,High,High,Moderate,Severe ST
+607,M,ASY,1,ST,Y,Flat,1,Middle-aged,High,High,Moderate,Slight ST
+608,M,ASY,0,ST,Y,Flat,1,Senior,High,Desirable,Moderate,Normal
+609,M,ASY,0,Normal,N,Flat,1,Middle-aged,Elevated,Very High,Moderate,Normal
+610,F,ASY,1,ST,N,Flat,1,Middle-aged,Elevated,Very High,High,Normal
+611,M,TA,0,ST,N,Up,0,Senior,Elevated,Desirable,Moderate,Normal
+612,M,ASY,1,ST,N,Flat,1,Middle-aged,Elevated,Borderline High,Low,Normal
+613,M,ASY,1,LVH,N,Up,0,Middle-aged,Elevated,Very High,Moderate,Normal
+614,M,ATA,0,LVH,Y,Flat,1,Senior,Normal,High,Low,Normal
+615,M,ASY,0,LVH,N,Flat,1,Senior,Elevated,Very High,Moderate,Severe ST
+616,F,NAP,0,LVH,N,Flat,0,Senior,Normal,Very High,High,Slight ST
+617,M,ATA,0,Normal,N,Up,1,Middle-aged,Elevated,High,High,Normal
+618,M,ASY,0,Normal,Y,Flat,0,Senior,Elevated,High,Moderate,Normal
+619,F,ATA,0,LVH,Y,Up,0,Senior,Normal,High,Moderate,Normal
+620,M,ASY,0,Normal,N,Up,0,Senior,Normal,Desirable,Moderate,Normal
+621,M,NAP,1,LVH,Y,Flat,1,Middle-aged,Elevated,High,High,Normal
+622,M,ASY,0,LVH,Y,Flat,1,Middle-aged,Normal,Borderline High,High,Slight ST
+623,M,ASY,0,LVH,N,Flat,1,Middle-aged,Elevated,High,High,Slight ST
+624,F,ASY,0,LVH,N,Flat,1,Senior,High,Very High,High,Severe ST
+625,M,ASY,0,Normal,N,Flat,0,Middle-aged,Elevated,Borderline High,High,Normal
+626,M,ASY,0,LVH,Y,Up,0,Middle-aged,High,Borderline High,Moderate,Normal
+627,M,NAP,0,LVH,N,Up,0,Middle-aged,Elevated,Borderline High,High,Normal
+628,M,TA,0,Normal,N,Flat,1,Senior,Elevated,Borderline High,High,Severe ST
+629,F,ASY,0,LVH,N,Up,0,Middle-aged,Elevated,Very High,High,Normal
+630,F,ASY,0,Normal,N,Flat,0,Senior,Normal,Desirable,Moderate,Slight ST
+631,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Elevated,Very High,Moderate,Slight ST
+632,M,ASY,1,LVH,Y,Down,1,Middle-aged,Elevated,Borderline High,High,Severe ST
+633,M,TA,0,LVH,Y,Flat,0,Senior,Normal,Borderline High,High,Slight ST
+634,M,TA,0,Normal,Y,Up,0,Young,Elevated,Desirable,High,Slight ST
+635,M,ASY,0,LVH,Y,Flat,1,Senior,Normal,Borderline High,Moderate,Severe ST
+636,M,ATA,0,LVH,N,Flat,0,Middle-aged,Elevated,High,High,Normal
+637,M,ASY,0,Normal,N,Flat,0,Middle-aged,Normal,Very High,Very High,Slight ST
+638,M,ASY,0,Normal,N,Up,0,Middle-aged,Normal,Borderline High,High,Normal
+639,F,ATA,1,LVH,Y,Up,0,Middle-aged,Elevated,High,High,Normal
+640,F,NAP,0,Normal,N,Up,0,Middle-aged,Elevated,High,Moderate,Normal
+641,F,ASY,0,LVH,Y,Flat,0,Middle-aged,Elevated,High,High,Normal
+642,F,NAP,0,LVH,N,Up,0,Middle-aged,Normal,High,High,Normal
+643,M,NAP,0,LVH,N,Flat,1,Middle-aged,Normal,Borderline High,High,Severe ST
+644,F,NAP,1,LVH,N,Up,0,Senior,Normal,High,Moderate,Normal
+645,M,NAP,0,LVH,N,Flat,1,Middle-aged,Elevated,Borderline High,High,Normal
+646,M,ASY,0,LVH,N,Up,0,Senior,High,Borderline High,Moderate,Severe ST
+647,F,NAP,0,Normal,N,Up,0,Young,Normal,Borderline High,High,Normal
+648,M,ASY,0,LVH,Y,Down,1,Middle-aged,High,Very High,Moderate,Severe ST
+649,M,ASY,0,LVH,Y,Flat,1,Middle-aged,High,Desirable,Moderate,Normal
+650,M,ASY,1,LVH,Y,Up,1,Middle-aged,Elevated,High,High,Normal
+651,M,ASY,0,LVH,Y,Up,1,Senior,Elevated,Borderline High,Moderate,Slight ST
+652,M,TA,0,LVH,N,Up,1,Middle-aged,High,High,Moderate,Normal
+653,M,NAP,0,Normal,N,Up,0,Middle-aged,Elevated,Desirable,High,Normal
+654,M,ASY,0,LVH,N,Up,0,Middle-aged,Elevated,Borderline High,Very High,Normal
+655,M,ASY,0,Normal,N,Up,1,Young,High,Borderline High,Very High,Normal
+656,F,ASY,0,Normal,N,Up,0,Senior,Elevated,Borderline High,High,Normal
+657,M,NAP,0,Normal,Y,Up,0,Middle-aged,Elevated,Borderline High,High,Normal
+658,M,ATA,1,Normal,N,Up,0,Middle-aged,Normal,Desirable,High,Normal
+659,M,NAP,1,Normal,N,Flat,1,Middle-aged,Elevated,Borderline High,Moderate,Severe ST
+660,M,NAP,1,LVH,N,Up,0,Middle-aged,Elevated,Borderline High,High,Normal
+661,M,NAP,0,LVH,N,Up,1,Middle-aged,Normal,Desirable,Moderate,Normal
+662,M,ASY,0,LVH,N,Up,1,Middle-aged,Normal,Desirable,High,Normal
+663,M,ATA,0,Normal,Y,Flat,1,Senior,High,High,Moderate,Normal
+664,F,ASY,0,LVH,N,Flat,1,Senior,High,Borderline High,Moderate,Normal
+665,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Elevated,Very High,Moderate,Slight ST
+666,M,ATA,1,Normal,N,Up,0,Middle-aged,Elevated,Borderline High,Very High,Normal
+667,F,NAP,1,LVH,N,Up,0,Senior,Elevated,Very High,High,Normal
+668,F,ATA,0,Normal,N,Up,0,Senior,Elevated,Desirable,High,Normal
+669,F,ATA,0,LVH,N,Flat,0,Middle-aged,Elevated,Borderline High,High,Normal
+670,F,ATA,0,Normal,N,Up,0,Middle-aged,Normal,Desirable,High,Normal
+671,M,ASY,0,LVH,Y,Flat,1,Senior,Elevated,Desirable,Moderate,Severe ST
+672,F,NAP,1,Normal,N,Up,0,Middle-aged,Normal,Desirable,Low,Normal
+673,F,ASY,0,Normal,Y,Flat,1,Middle-aged,High,High,High,Normal
+674,M,ATA,0,LVH,N,Flat,1,Senior,Normal,High,Moderate,Slight ST
+675,M,NAP,1,Normal,N,Up,0,Middle-aged,High,Desirable,High,Normal
+676,F,ASY,0,Normal,Y,Flat,1,Middle-aged,Elevated,Very High,High,Slight ST
+677,M,NAP,0,Normal,N,Up,0,Middle-aged,Normal,Borderline High,High,Normal
+678,F,TA,0,Normal,N,Up,0,Middle-aged,High,Borderline High,High,Normal
+679,M,TA,1,LVH,N,Down,0,Senior,High,Borderline High,High,Severe ST
+680,M,ASY,0,LVH,Y,Flat,1,Middle-aged,High,High,Moderate,Normal
+681,M,ASY,0,LVH,Y,Up,0,Middle-aged,Elevated,High,Very High,Normal
+682,F,ATA,1,LVH,N,Up,1,Middle-aged,Elevated,Very High,High,Normal
+683,F,NAP,0,Normal,N,Flat,0,Middle-aged,Normal,High,High,Normal
+684,M,NAP,0,Normal,N,Up,1,Middle-aged,Normal,High,High,Normal
+685,M,ASY,0,Normal,Y,Flat,1,Senior,Normal,High,Moderate,Severe ST
+686,F,ASY,0,Normal,Y,Up,0,Middle-aged,Normal,Very High,High,Normal
+687,M,ATA,0,LVH,N,Up,0,Senior,High,High,High,Normal
+688,F,NAP,0,ST,N,Flat,0,Senior,Elevated,Desirable,Moderate,Slight ST
+689,F,ASY,0,Normal,N,Up,0,Senior,Normal,Borderline High,High,Normal
+690,M,ASY,0,LVH,Y,Flat,1,Middle-aged,High,Very High,High,Normal
+691,M,ASY,0,LVH,Y,Flat,0,Middle-aged,Normal,Borderline High,High,Severe ST
+692,F,NAP,0,Normal,N,Up,0,Young,Normal,Desirable,High,Normal
+693,F,NAP,0,Normal,N,Flat,0,Middle-aged,Normal,Borderline High,High,Normal
+694,M,ATA,0,Normal,N,Up,0,Middle-aged,Normal,Borderline High,High,Normal
+695,M,ASY,0,Normal,N,Flat,1,Middle-aged,High,Borderline High,Moderate,Slight ST
+696,M,ASY,0,Normal,Y,Flat,1,Young,Normal,Desirable,Moderate,Slight ST
+697,M,ASY,0,LVH,Y,Up,1,Middle-aged,High,High,Moderate,Normal
+698,M,NAP,0,LVH,N,Flat,0,Middle-aged,Elevated,Borderline High,High,Slight ST
+699,M,ASY,0,Normal,Y,Flat,0,Middle-aged,Normal,Borderline High,Moderate,Slight ST
+700,M,TA,0,LVH,N,Up,0,Middle-aged,High,High,High,Normal
+701,M,ATA,1,LVH,N,Up,0,Senior,Elevated,Borderline High,Moderate,Normal
+702,M,TA,0,LVH,N,Down,0,Middle-aged,High,High,High,Severe ST
+703,F,ATA,0,Normal,N,Up,0,Middle-aged,Elevated,Very High,High,Normal
+704,M,ASY,0,LVH,N,Flat,1,Middle-aged,High,High,Moderate,Severe ST
+705,M,ATA,0,Normal,Y,Up,0,Middle-aged,Elevated,Borderline High,High,Normal
+706,F,ASY,0,LVH,N,Up,1,Senior,Elevated,Very High,High,Normal
+707,M,ASY,0,LVH,Y,Flat,1,Middle-aged,Elevated,High,Moderate,Severe ST
+708,M,ASY,0,LVH,Y,Flat,1,Middle-aged,Normal,Borderline High,Moderate,Normal
+709,M,ASY,0,Normal,N,Up,1,Middle-aged,Elevated,Borderline High,High,Normal
+710,M,ASY,0,LVH,Y,Flat,1,Middle-aged,Normal,High,Moderate,Normal
+711,M,ASY,0,LVH,N,Flat,0,Senior,Normal,Very High,High,Normal
+712,M,ASY,0,Normal,N,Up,1,Middle-aged,Normal,Borderline High,High,Normal
+713,F,NAP,0,Normal,N,Up,0,Senior,Elevated,Very High,Moderate,Normal
+714,F,ATA,0,Normal,N,Up,0,Middle-aged,Normal,High,High,Slight ST
+715,F,NAP,0,Normal,N,Flat,0,Middle-aged,Normal,Desirable,High,Normal
+716,M,ASY,0,Normal,N,Flat,1,Senior,Normal,Borderline High,Low,Normal
+717,F,ASY,0,Normal,N,Up,0,Middle-aged,Elevated,High,High,Normal
+718,M,ASY,1,LVH,N,Flat,1,Middle-aged,High,High,Moderate,Normal
+719,M,ASY,0,LVH,N,Flat,1,Senior,Elevated,High,High,Slight ST
+720,M,ASY,0,LVH,N,Flat,1,Middle-aged,Elevated,High,High,Normal
+721,M,NAP,0,Normal,Y,Flat,0,Middle-aged,Normal,Borderline High,High,Slight ST
+722,F,ASY,0,LVH,N,Flat,1,Middle-aged,High,High,High,Severe ST
+723,M,ASY,0,Normal,Y,Up,1,Middle-aged,Elevated,Desirable,High,Normal
+724,F,ATA,0,Normal,N,Flat,0,Middle-aged,Normal,Desirable,Moderate,Normal
+725,F,ASY,0,ST,Y,Flat,1,Middle-aged,High,Very High,Moderate,Severe ST
+726,M,ATA,0,Normal,N,Up,0,Middle-aged,Normal,Borderline High,High,Normal
+727,F,ASY,0,LVH,N,Up,1,Middle-aged,High,Very High,High,Normal
+728,F,NAP,1,Normal,N,Up,0,Middle-aged,Elevated,Very High,High,Normal
+729,M,ATA,0,Normal,N,Up,0,Middle-aged,Normal,High,High,Normal
+730,F,ATA,0,Normal,N,Flat,0,Middle-aged,Elevated,High,High,Normal
+731,M,ASY,0,LVH,N,Up,1,Middle-aged,Normal,High,High,Normal
+732,F,ASY,1,LVH,Y,Down,1,Middle-aged,High,High,Moderate,Severe ST
+733,F,TA,0,Normal,N,Down,0,Senior,High,Borderline High,Moderate,Severe ST
+734,M,ASY,1,LVH,Y,Down,1,Middle-aged,Elevated,High,Moderate,Slight ST
+735,M,NAP,0,Normal,N,Flat,1,Middle-aged,Normal,Desirable,Moderate,Slight ST
+736,M,ASY,0,LVH,Y,Flat,1,Middle-aged,Elevated,High,Moderate,Severe ST
+737,M,ASY,0,Normal,Y,Flat,1,Middle-aged,High,High,Low,Slight ST
+738,F,NAP,0,LVH,N,Up,0,Senior,High,Very High,High,Normal
+739,M,NAP,0,LVH,N,Down,0,Middle-aged,Elevated,High,High,Normal
+740,F,NAP,0,Normal,N,Up,0,Middle-aged,High,Borderline High,High,Normal
+741,M,ASY,0,Normal,Y,Flat,1,Senior,Normal,High,Low,Slight ST
+742,F,NAP,0,LVH,N,Flat,0,Middle-aged,Elevated,Desirable,High,Normal
+743,M,ATA,0,Normal,N,Up,0,Middle-aged,Elevated,Borderline High,High,Normal
+744,M,ASY,1,Normal,Y,Up,1,Middle-aged,Normal,Borderline High,High,Slight ST
+745,F,ASY,0,Normal,Y,Flat,1,Senior,Normal,High,High,Slight ST
+746,M,ASY,0,LVH,Y,Up,1,Senior,Normal,Borderline High,Moderate,Normal
+747,M,ASY,0,Normal,N,Up,0,Middle-aged,Elevated,Borderline High,High,Normal
+748,M,ASY,0,LVH,Y,Down,1,Senior,Normal,High,Low,Severe ST
+749,M,NAP,0,LVH,N,Up,0,Middle-aged,High,Borderline High,High,Slight ST
+750,F,NAP,0,LVH,Y,Down,0,Middle-aged,High,Desirable,High,Slight ST
+751,F,NAP,0,Normal,N,Up,0,Senior,High,High,High,Normal
+752,M,ASY,1,LVH,Y,Flat,1,Middle-aged,Elevated,High,High,Slight ST
+753,F,ATA,0,Normal,N,Up,0,Young,Normal,Borderline High,Very High,Normal
+754,M,ASY,0,Normal,Y,Up,0,Middle-aged,Elevated,Borderline High,High,Normal
+755,M,ASY,0,LVH,N,Flat,1,Senior,High,Borderline High,Moderate,Slight ST
+756,M,ASY,0,LVH,N,Up,0,Middle-aged,Elevated,High,Very High,Normal
+757,M,NAP,0,Normal,N,Flat,1,Middle-aged,Elevated,Borderline High,High,Normal
+758,M,TA,0,LVH,Y,Up,0,Middle-aged,Elevated,Borderline High,Moderate,Slight ST
+759,M,ATA,0,LVH,N,Up,1,Middle-aged,High,High,Very High,Normal
+760,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Elevated,High,Low,Slight ST
+761,M,ASY,0,Normal,N,Up,1,Middle-aged,Normal,Borderline High,High,Normal
+762,M,ASY,0,LVH,Y,Flat,1,Young,Normal,Desirable,Moderate,Slight ST
+763,M,NAP,0,LVH,N,Up,1,Middle-aged,Elevated,Borderline High,High,Severe ST
+764,F,NAP,0,LVH,Y,Up,0,Middle-aged,Normal,High,High,Normal
+765,M,NAP,0,Normal,N,Up,0,Middle-aged,Normal,High,High,Normal
+766,F,NAP,0,Normal,N,Flat,0,Middle-aged,Normal,Borderline High,High,Slight ST
+767,F,NAP,0,LVH,N,Up,0,Middle-aged,Normal,High,High,Normal
+768,F,ASY,0,Normal,N,Flat,0,Senior,Elevated,Very High,Moderate,Slight ST
+769,F,NAP,0,LVH,N,Up,0,Middle-aged,Elevated,High,High,Normal
+770,F,ATA,0,Normal,N,Up,0,Middle-aged,Normal,Borderline High,High,Normal
+771,M,ASY,0,Normal,Y,Down,1,Middle-aged,Elevated,Borderline High,Moderate,Severe ST
+772,M,ATA,0,LVH,N,Up,0,Middle-aged,Elevated,Very High,High,Normal
+773,M,TA,0,LVH,N,Flat,0,Middle-aged,Normal,Desirable,High,Slight ST
+774,F,ASY,1,Normal,Y,Flat,1,Senior,High,Borderline High,High,Normal
+775,M,TA,0,Normal,Y,Flat,1,Young,Normal,Borderline High,Very High,Severe ST
+776,F,ASY,0,Normal,Y,Flat,1,Senior,High,High,High,Slight ST
+777,M,ATA,0,Normal,N,Up,0,Middle-aged,Elevated,High,High,Normal
+778,M,ASY,0,LVH,Y,Flat,1,Middle-aged,Elevated,High,Moderate,Severe ST
+779,M,ASY,0,Normal,N,Up,0,Middle-aged,Normal,Borderline High,High,Normal
+780,F,ASY,0,Normal,Y,Up,0,Senior,High,Very High,High,Normal
+781,F,ASY,0,LVH,N,Up,0,Middle-aged,Normal,High,High,Normal
+782,M,NAP,1,LVH,N,Down,0,Middle-aged,Elevated,Desirable,High,Slight ST
+783,F,ASY,0,LVH,Y,Flat,0,Middle-aged,Elevated,Borderline High,High,Normal
+784,M,TA,1,LVH,N,Flat,1,Senior,Elevated,High,High,Slight ST
+785,M,TA,1,LVH,N,Flat,0,Senior,High,Borderline High,Moderate,Normal
+786,M,NAP,0,LVH,N,Flat,1,Senior,Elevated,High,High,Slight ST
+787,M,ASY,0,LVH,Y,Flat,1,Senior,Normal,High,Moderate,Normal
+788,F,NAP,0,LVH,N,Flat,0,Senior,Normal,Borderline High,Moderate,Slight ST
+789,M,TA,0,LVH,N,Up,0,Young,Normal,Desirable,High,Normal
+790,F,ASY,1,Normal,N,Flat,1,Senior,Elevated,High,Moderate,Slight ST
+791,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Elevated,High,Moderate,Severe ST
+792,M,NAP,0,Normal,N,Flat,1,Middle-aged,High,Borderline High,High,Severe ST
+793,M,ASY,1,Normal,N,Flat,1,Senior,Elevated,High,High,Normal
+794,M,NAP,0,Normal,N,Up,0,Middle-aged,Elevated,Desirable,High,Normal
+795,M,NAP,1,Normal,N,Down,0,Middle-aged,Normal,Borderline High,Very High,Normal
+796,F,ASY,0,LVH,Y,Flat,1,Middle-aged,Elevated,Very High,High,Slight ST
+797,M,ASY,0,LVH,N,Up,1,Middle-aged,Normal,Desirable,High,Normal
+798,F,ASY,0,LVH,N,Flat,0,Middle-aged,Normal,High,Moderate,Normal
+799,M,NAP,1,LVH,N,Up,0,Middle-aged,Elevated,High,High,Normal
+800,M,NAP,0,Normal,N,Up,0,Middle-aged,Elevated,Very High,High,Slight ST
+801,M,ASY,0,LVH,Y,Flat,1,Middle-aged,Elevated,Desirable,Moderate,Severe ST
+802,M,ASY,1,Normal,N,Up,0,Middle-aged,Normal,Borderline High,High,Normal
+803,F,ASY,0,LVH,N,Flat,0,Senior,Elevated,Very High,High,Slight ST
+804,M,NAP,0,Normal,Y,Flat,1,Senior,High,High,Moderate,Severe ST
+805,M,ASY,0,Normal,N,Up,0,Middle-aged,Elevated,Borderline High,High,Slight ST
+806,M,ASY,0,Normal,Y,Down,1,Senior,High,Desirable,Moderate,Severe ST
+807,M,ATA,0,Normal,N,Up,0,Middle-aged,Normal,Very High,High,Normal
+808,M,ASY,0,LVH,Y,Up,1,Young,Elevated,High,High,Normal
+809,M,NAP,1,Normal,N,Up,0,Middle-aged,Elevated,High,High,Normal
+810,F,ATA,0,LVH,N,Flat,0,Middle-aged,Elevated,High,High,Slight ST
+811,F,ASY,0,LVH,N,Flat,0,Middle-aged,Normal,High,Moderate,Normal
+812,F,NAP,0,Normal,N,Flat,0,Middle-aged,Normal,Borderline High,High,Slight ST
+813,F,TA,0,Normal,N,Up,0,Senior,Elevated,Borderline High,High,Slight ST
+814,M,ASY,0,LVH,Y,Up,1,Senior,Elevated,Very High,High,Normal
+815,M,NAP,0,Normal,N,Up,0,Senior,Normal,High,High,Normal
+816,M,ASY,0,LVH,N,Up,1,Middle-aged,Elevated,High,High,Normal
+817,M,ASY,0,LVH,Y,Flat,1,Middle-aged,Elevated,High,High,Severe ST
+818,M,ASY,0,Normal,Y,Up,1,Middle-aged,Elevated,High,High,Slight ST
+819,M,ASY,0,LVH,Y,Flat,1,Middle-aged,High,High,High,Normal
+820,M,TA,1,Normal,N,Flat,0,Middle-aged,High,High,High,Slight ST
+821,F,NAP,0,Normal,N,Up,0,Middle-aged,Normal,Very High,High,Normal
+822,M,NAP,0,LVH,Y,Flat,0,Middle-aged,Normal,Borderline High,High,Normal
+823,M,NAP,0,Normal,Y,Flat,1,Senior,Elevated,Very High,Moderate,Slight ST
+824,M,NAP,0,Normal,N,Down,0,Young,Elevated,High,Very High,Severe ST
+825,M,TA,0,LVH,N,Flat,1,Middle-aged,High,High,High,Normal
+826,M,NAP,1,LVH,N,Flat,0,Middle-aged,Elevated,High,High,Severe ST
+827,F,NAP,0,Normal,N,Flat,0,Middle-aged,Elevated,Borderline High,High,Normal
+828,M,ASY,0,LVH,Y,Flat,1,Middle-aged,Elevated,Borderline High,Moderate,Severe ST
+829,M,ATA,0,LVH,N,Up,0,Young,Elevated,Borderline High,Very High,Normal
+830,F,ATA,0,LVH,N,Up,0,Middle-aged,Elevated,Borderline High,High,Slight ST
+831,F,NAP,0,LVH,N,Up,0,Senior,Elevated,High,High,Normal
+832,M,NAP,0,Normal,Y,Up,0,Middle-aged,Normal,Borderline High,High,Normal
+833,M,NAP,0,LVH,N,Flat,0,Middle-aged,Normal,High,High,Normal
+834,M,ATA,0,Normal,N,Up,0,Middle-aged,Normal,Borderline High,High,Normal
+835,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Normal,Borderline High,Moderate,Severe ST
+836,M,ASY,0,LVH,N,Flat,1,Senior,Elevated,High,Moderate,Severe ST
+837,M,NAP,0,Normal,N,Up,0,Middle-aged,High,Desirable,High,Slight ST
+838,M,ASY,1,LVH,Y,Up,1,Senior,Elevated,Very High,Moderate,Slight ST
+839,F,ASY,0,Normal,N,Up,0,Young,Elevated,Desirable,Very High,Slight ST
+840,M,ATA,0,Normal,N,Flat,0,Middle-aged,Elevated,Borderline High,Moderate,Normal
+841,F,NAP,0,Normal,N,Flat,1,Senior,Elevated,High,Low,Slight ST
+842,F,ASY,1,LVH,Y,Flat,1,Middle-aged,Elevated,Very High,Moderate,Severe ST
+843,F,TA,1,LVH,N,Up,0,Middle-aged,High,High,High,Normal
+844,M,TA,0,LVH,N,Flat,0,Middle-aged,Normal,Desirable,Very High,Normal
+845,F,ASY,0,LVH,Y,Flat,1,Senior,High,Very High,High,Normal
+846,M,ASY,0,Normal,N,Flat,1,Young,Normal,Borderline High,Moderate,Slight ST
+847,M,ASY,0,LVH,N,Up,0,Middle-aged,Normal,High,Very High,Normal
+848,M,ASY,0,Normal,Y,Up,1,Middle-aged,Elevated,High,High,Normal
+849,M,NAP,0,Normal,N,Flat,0,Senior,Elevated,Borderline High,High,Slight ST
+850,F,ASY,0,LVH,N,Down,1,Senior,High,Desirable,High,Severe ST
+851,F,ASY,0,LVH,N,Up,0,Middle-aged,Elevated,Borderline High,High,Normal
+852,M,ASY,0,LVH,Y,Flat,1,Middle-aged,Normal,Desirable,Moderate,Severe ST
+853,M,NAP,0,LVH,N,Up,0,Middle-aged,Elevated,High,High,Normal
+854,M,ATA,0,Normal,N,Up,0,Middle-aged,Normal,Very High,High,Normal
+855,M,NAP,1,LVH,Y,Flat,1,Senior,High,High,High,Slight ST
+856,M,NAP,0,LVH,N,Up,0,Young,Elevated,Very High,Very High,Normal
+857,F,ASY,0,LVH,N,Flat,0,Middle-aged,Elevated,High,High,Normal
+858,F,ASY,0,LVH,N,Down,1,Senior,Elevated,High,High,Severe ST
+859,F,NAP,0,LVH,N,Up,0,Middle-aged,Elevated,Very High,High,Slight ST
+860,M,ASY,0,Normal,Y,Up,1,Middle-aged,Elevated,High,High,Slight ST
+861,M,ASY,0,LVH,N,Up,1,Senior,Normal,High,High,Normal
+862,F,NAP,0,Normal,N,Up,0,Senior,High,High,High,Normal
+863,M,NAP,0,LVH,N,Flat,1,Middle-aged,Elevated,Desirable,High,Severe ST
+864,M,ASY,0,LVH,Y,Flat,1,Middle-aged,High,High,High,Severe ST
+865,M,ASY,0,Normal,N,Flat,1,Middle-aged,Normal,Desirable,Moderate,Slight ST
+866,M,ATA,0,LVH,N,Up,0,Middle-aged,Elevated,Borderline High,Very High,Normal
+867,M,ASY,0,LVH,N,Up,1,Middle-aged,Normal,High,High,Normal
+868,M,NAP,0,Normal,N,Up,0,Middle-aged,Normal,Desirable,Moderate,Normal
+869,M,NAP,1,Normal,N,Up,0,Middle-aged,High,Borderline High,High,Slight ST
+870,F,ATA,0,Normal,N,Up,0,Senior,High,Very High,High,Normal
+871,M,NAP,1,Normal,Y,Flat,0,Senior,High,High,Moderate,Normal
+872,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Elevated,Very High,Moderate,Slight ST
+873,M,NAP,0,Normal,N,Up,1,Senior,Elevated,Very High,High,Normal
+874,M,ASY,0,Normal,N,Up,0,Middle-aged,High,High,High,Slight ST
+875,F,NAP,0,Normal,N,Up,0,Middle-aged,Normal,Very High,High,Normal
+876,M,ASY,0,LVH,Y,Flat,1,Middle-aged,Elevated,Borderline High,Moderate,Severe ST
+877,M,ATA,0,LVH,N,Flat,1,Middle-aged,Normal,High,High,Slight ST
+878,M,ATA,0,Normal,N,Up,0,Middle-aged,Elevated,High,High,Normal
+879,M,ATA,0,Normal,N,Down,1,Middle-aged,Normal,Borderline High,High,Normal
+880,M,NAP,1,Normal,N,Up,0,Middle-aged,High,Desirable,High,Normal
+881,M,ATA,0,Normal,N,Up,0,Middle-aged,Normal,High,High,Normal
+882,F,ATA,0,LVH,N,Flat,0,Middle-aged,Elevated,High,High,Slight ST
+883,M,ASY,0,Normal,N,Flat,0,Middle-aged,Elevated,Desirable,High,Normal
+884,M,ASY,0,LVH,Y,Flat,1,Senior,High,High,Moderate,Slight ST
+885,F,NAP,0,LVH,N,Up,0,Middle-aged,Elevated,Borderline High,Moderate,Normal
+886,M,NAP,0,Normal,N,Up,0,Middle-aged,Elevated,Borderline High,High,Normal
+887,M,ASY,1,LVH,Y,Flat,1,Middle-aged,Elevated,High,High,Normal
+888,M,ASY,1,Normal,Y,Flat,1,Middle-aged,Elevated,Borderline High,High,Normal
+889,M,TA,0,Normal,N,Up,1,Middle-aged,Elevated,Borderline High,High,Normal
+890,M,TA,0,LVH,N,Flat,0,Senior,High,Borderline High,High,Normal
+891,F,NAP,0,LVH,N,Flat,0,Senior,High,High,High,Normal
+892,F,NAP,0,Normal,N,Flat,0,Young,Elevated,Borderline High,High,Normal
+893,M,ATA,0,LVH,N,Up,1,Middle-aged,High,Borderline High,High,Normal
+894,F,ASY,0,Normal,N,Flat,0,Middle-aged,Elevated,Desirable,Moderate,Normal
+895,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Normal,Very High,High,Severe ST
+896,M,NAP,0,Normal,N,Up,0,Middle-aged,Elevated,High,High,Normal
+897,F,ASY,0,ST,Y,Flat,1,Middle-aged,Elevated,Borderline High,Moderate,Slight ST
+898,M,ATA,0,Normal,N,Up,0,Young,Elevated,Desirable,High,Normal
+899,M,ASY,0,Normal,N,Up,1,Senior,High,Borderline High,High,Normal
+900,M,ASY,0,ST,N,Down,1,Middle-aged,Normal,Very High,Moderate,Severe ST
+901,F,ASY,1,LVH,Y,Flat,1,Middle-aged,High,Borderline High,High,Severe ST
+902,M,ATA,0,Normal,N,Flat,0,Middle-aged,Elevated,Borderline High,High,Normal
+903,M,ATA,0,LVH,N,Up,0,Middle-aged,Elevated,Borderline High,High,Normal
+904,M,ATA,0,Normal,N,Down,0,Middle-aged,Normal,Borderline High,High,Normal
+905,M,NAP,0,LVH,N,Flat,1,Senior,High,Borderline High,High,Normal
+906,F,ATA,0,Normal,N,Up,0,Middle-aged,Elevated,Very High,High,Slight ST
+907,M,ASY,0,Normal,Y,Down,1,Middle-aged,Normal,Desirable,High,Severe ST
+908,M,ASY,0,LVH,Y,Up,1,Senior,Elevated,Desirable,High,Severe ST
+909,F,ASY,0,Normal,Y,Flat,1,Senior,Elevated,Desirable,Moderate,Normal
+910,M,ATA,0,Normal,N,Up,0,Middle-aged,Normal,Desirable,Very High,Normal
+911,M,ASY,1,LVH,N,Flat,1,Middle-aged,High,Desirable,Low,Normal
+912,F,ASY,0,Normal,Y,Flat,1,Middle-aged,Elevated,High,Moderate,Normal
+913,M,TA,0,Normal,N,Flat,1,Middle-aged,Normal,High,Moderate,Slight ST
+914,M,ASY,1,Normal,N,Flat,1,Senior,High,Desirable,High,Severe ST
+915,M,ASY,0,Normal,Y,Flat,1,Middle-aged,Elevated,Desirable,Moderate,Slight ST
+916,F,ATA,0,LVH,N,Flat,1,Middle-aged,Elevated,Borderline High,High,Normal
+917,M,NAP,0,Normal,N,Up,0,Young,Elevated,Desirable,High,Normal
