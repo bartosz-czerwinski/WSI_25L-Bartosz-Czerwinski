@@ -93,6 +93,8 @@ class MLP_Better:
         m_train = X_train.shape[1]
         min_cost = float('inf')
         best_W, best_b = {}, {}
+        val_costs = []
+        test_costs = []
 
         for e in range(1, epochs + 1):
             perm = np.random.permutation(m_train)
@@ -110,6 +112,8 @@ class MLP_Better:
             epoch_cost /= m_train
             AL_val, _ = self.forward(X_val, is_training=False)
             val_cost = self.compute_cost(AL_val, Y_val, lambd=0)  # Bez L2 dla walidacji
+            val_costs.append(val_cost)
+            test_costs.append(epoch_cost)
             if print_every and e % print_every == 0:
                 print(f"Epoch {e}/{epochs} - train cost: {epoch_cost:.6f}, val cost: {val_cost:.6f}")
             if val_cost < min_cost:
@@ -119,8 +123,9 @@ class MLP_Better:
             if val_cost > min_cost * 1.4:
                 print("Early stopping...")
                 self.W, self.b = best_W, best_b
-                return
+                return val_costs, test_costs
         self.W, self.b = best_W, best_b
+        return val_costs, test_costs
 
     def predict(self, X):
         AL, _ = self.forward(X, is_training=False)
